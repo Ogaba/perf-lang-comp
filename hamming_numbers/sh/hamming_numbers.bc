@@ -1,0 +1,46 @@
+define min(x,y) {
+ if (x < y) {
+	return x
+ } else {
+	return y
+ }
+}
+define hamming(limit) {
+ i = 0
+ j = 0
+ k = 0
+ h[0] = 1
+ x2 = 2
+ x3 = 3
+ x5 = 5
+ for (n=1; n<=limit; n++) {
+  h[n] = min(x2,min(x3,x5))
+  if (h[n] == x2) { x2 = 2 * h[++i] }
+  if (h[n] == x3) { x3 = 3 * h[++j] }
+  if (h[n] == x5) { x5 = 5 * h[++k] }
+ }
+ return (h[limit-1])
+}
+hamming(1)
+hamming(2)
+hamming(3)
+hamming(4)
+hamming(5)
+hamming(6)
+hamming(7)
+hamming(8)
+hamming(9)
+hamming(10)
+hamming(11)
+hamming(12)
+hamming(13)
+hamming(14)
+hamming(15)
+hamming(16)
+hamming(17)
+hamming(18)
+hamming(19)
+hamming(20)
+hamming(1691)
+hamming(1000000)
+quit

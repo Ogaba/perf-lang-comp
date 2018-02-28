@@ -1,0 +1,29 @@
+define fact_r(x) {
+        if (x <= 1) {
+                return 1
+        } else {
+                return x*fact_r(x-1)
+        }
+}
+define left_factorials(n) {
+	sme = 0
+        if (n < 0) {
+                return -1
+        }
+        if (n == 0) {
+                 return 0
+        }
+        for (i = 0; i < n; i++)
+                sme = sme + fact_r(i)
+        return sme
+}
+for (i=0;i<11;i++) {
+left_factorials(i)
+}
+for (i=20;i<111;i=i+10) {
+left_factorials(i)
+}
+for (i=1000;i<2001;i=i+1000) {
+print "", length(left_factorials(i)), "\n"
+}
+quit

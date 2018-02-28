@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de bc :bc 1.06.95
+COMMAND=bc lychrel_numbers.bc
+USER=148.52
+SYS=0.13
+REAL=2:30.50
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=146.84
+SYS=0.20
+REAL=2:28.63
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=149.33
+SYS=0.21
+REAL=2:33.58
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=148.98
+SYS=0.18
+REAL=2:33.45
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=154.31
+SYS=0.13
+REAL=2:37.93
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=147.03
+SYS=0.13
+REAL=2:28.78
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=146.07
+SYS=0.12
+REAL=2:27.25
+MEMT=0
+COMMAND=bc lychrel_numbers.bc
+USER=146.93
+SYS=0.17
+REAL=2:28.47
+MEMT=0
+bc : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=cd2d68e98676226a5071220757849453a9bd9081ca5fe671dcdba2a0954cd6b7
+NB_LIGNES=3

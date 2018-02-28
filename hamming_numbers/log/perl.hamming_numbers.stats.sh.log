@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 0 (v5.26.0) built for x86_64-linux-gnu-thread-multi
+COMMAND=taskset -c 1 perl hamming_numbers.perl
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+COMMAND=taskset -c 2 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+COMMAND=taskset -c 3 perl hamming_numbers.perl
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+COMMAND=taskset -c 0 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+COMMAND=taskset -c 1 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+COMMAND=taskset -c 2 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+COMMAND=taskset -c 3 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+COMMAND=taskset -c 0 perl hamming_numbers.perl
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c6ed0c25f9d4b7cde8c1cd5429370537ed444afc58b7b77725b8122815a6483d
+NB_LIGNES=22
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,420
+BYTES_TOTAL_HEAP_USAGE=2,436

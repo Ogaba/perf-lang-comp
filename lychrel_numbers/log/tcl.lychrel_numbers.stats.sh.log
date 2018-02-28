@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+COMMAND=taskset -c 1 tclsh lychrel_numbers.tclsh
+USER=0.19
+SYS=0.00
+REAL=0:00.19
+MEMT=0
+COMMAND=taskset -c 2 tclsh lychrel_numbers.tclsh
+USER=0.18
+SYS=0.00
+REAL=0:00.18
+MEMT=0
+COMMAND=taskset -c 3 tclsh lychrel_numbers.tclsh
+USER=0.18
+SYS=0.00
+REAL=0:00.18
+MEMT=0
+COMMAND=taskset -c 0 tclsh lychrel_numbers.tclsh
+USER=0.19
+SYS=0.00
+REAL=0:00.19
+MEMT=0
+COMMAND=taskset -c 1 tclsh lychrel_numbers.tclsh
+USER=0.18
+SYS=0.00
+REAL=0:00.18
+MEMT=0
+COMMAND=taskset -c 2 tclsh lychrel_numbers.tclsh
+USER=0.18
+SYS=0.00
+REAL=0:00.18
+MEMT=0
+COMMAND=taskset -c 3 tclsh lychrel_numbers.tclsh
+USER=0.19
+SYS=0.00
+REAL=0:00.19
+MEMT=0
+COMMAND=taskset -c 0 tclsh lychrel_numbers.tclsh
+USER=0.18
+SYS=0.00
+REAL=0:00.18
+MEMT=0
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=cf7a67d9952f5aa388ce37e9974bb7f3604ccc4b0ff4a210f5fb5ef8266a3615
+NB_LIGNES=3
+tclsh : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,420
+BYTES_TOTAL_HEAP_USAGE=2,436

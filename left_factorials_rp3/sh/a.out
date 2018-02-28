@@ -1,0 +1,1 @@
+taskset -c 0 tclsh left_factorials.tcl

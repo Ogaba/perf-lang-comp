@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 1 (v5.26.1) built for i686-cygwin-threads-64int-multi
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.46
+SYS=0.12
+REAL=0:00.64
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.42
+SYS=0.15
+REAL=0:00.60
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.43
+SYS=0.17
+REAL=0:00.71
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.45
+SYS=0.13
+REAL=0:00.63
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.46
+SYS=0.15
+REAL=0:00.69
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.42
+SYS=0.10
+REAL=0:00.59
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.38
+SYS=0.17
+REAL=0:00.60
+MEMT=0
+COMMAND=perl ip.perl "/var/log/setup.log"
+USER=0.45
+SYS=0.10
+REAL=0:00.64
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=2923de1e19e6074f2a2e2672d40cf71bd79ace43c441bda0ada87dba2cf57038
+NB_LIGNES=3

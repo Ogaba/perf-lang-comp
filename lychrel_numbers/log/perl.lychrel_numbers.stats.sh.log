@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 0 (v5.26.0) built for x86_64-linux-gnu-thread-multi
+COMMAND=taskset -c 1 perl lychrel_numbers.perl
+USER=7.59
+SYS=0.01
+REAL=0:07.60
+MEMT=0
+COMMAND=taskset -c 2 perl lychrel_numbers.perl
+USER=7.65
+SYS=0.00
+REAL=0:07.65
+MEMT=0
+COMMAND=taskset -c 3 perl lychrel_numbers.perl
+USER=7.63
+SYS=0.00
+REAL=0:07.63
+MEMT=0
+COMMAND=taskset -c 0 perl lychrel_numbers.perl
+USER=7.57
+SYS=0.00
+REAL=0:07.58
+MEMT=0
+COMMAND=taskset -c 1 perl lychrel_numbers.perl
+USER=7.68
+SYS=0.00
+REAL=0:07.69
+MEMT=0
+COMMAND=taskset -c 2 perl lychrel_numbers.perl
+USER=7.62
+SYS=0.01
+REAL=0:07.64
+MEMT=0
+COMMAND=taskset -c 3 perl lychrel_numbers.perl
+USER=7.67
+SYS=0.00
+REAL=0:07.68
+MEMT=0
+COMMAND=taskset -c 0 perl lychrel_numbers.perl
+USER=7.69
+SYS=0.01
+REAL=0:07.71
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=5f426e106ce024f38c20d825518a32db31ba971667c68bf465d8f97b14b64c3b
+NB_LIGNES=4
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,420
+BYTES_TOTAL_HEAP_USAGE=2,436

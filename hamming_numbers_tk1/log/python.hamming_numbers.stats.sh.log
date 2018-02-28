@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.13
+COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
+USER=2.03
+SYS=0.00
+REAL=0:02.04
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
+USER=2.12
+SYS=0.00
+REAL=0:02.13
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
+USER=2.09
+SYS=0.00
+REAL=0:02.12
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
+USER=1.98
+SYS=0.00
+REAL=0:01.99
+MEMT=0
+COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
+USER=2.06
+SYS=0.00
+REAL=0:02.07
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
+USER=2.17
+SYS=0.00
+REAL=0:02.19
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
+USER=2.33
+SYS=0.02
+REAL=0:02.36
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
+USER=2.57
+SYS=0.00
+REAL=0:02.59
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22
+bash_functions.sh: line 136: 26038 Segmentation fault      valgrind --log-file=grindout ./a.out > /dev/null
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=BYTES_TOTAL_HEAP_USAGE=

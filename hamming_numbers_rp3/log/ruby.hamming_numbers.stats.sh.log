@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.1.5p273 (2014-11-13) [arm-linux-gnueabihf]
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.33
+SYS=0.03
+REAL=0:32.62
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=31.96
+SYS=0.02
+REAL=0:32.08
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=31.96
+SYS=0.02
+REAL=0:32.00
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.01
+SYS=0.00
+REAL=0:32.03
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.24
+SYS=0.04
+REAL=0:32.38
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=32.11
+SYS=0.04
+REAL=0:32.25
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=32.01
+SYS=0.00
+REAL=0:32.03
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.03
+SYS=0.01
+REAL=0:32.07
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.21
+SYS=0.03
+REAL=0:32.32
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=31.95
+SYS=0.02
+REAL=0:32.08
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=31.91
+SYS=0.03
+REAL=0:31.95
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.10
+SYS=0.01
+REAL=0:32.13
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.06
+SYS=0.05
+REAL=0:32.19
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=32.03
+SYS=0.02
+REAL=0:32.15
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=32.04
+SYS=0.00
+REAL=0:32.06
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.10
+SYS=0.05
+REAL=0:32.19
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.30
+SYS=0.00
+REAL=0:32.38
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=31.97
+SYS=0.01
+REAL=0:32.08
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=32.05
+SYS=0.00
+REAL=0:32.09
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.02
+SYS=0.04
+REAL=0:32.08
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.35
+SYS=0.05
+REAL=0:32.49
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=31.98
+SYS=0.04
+REAL=0:32.12
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=32.02
+SYS=0.05
+REAL=0:32.11
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.10
+SYS=0.03
+REAL=0:32.16
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.13
+SYS=0.05
+REAL=0:32.26
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=32.14
+SYS=0.02
+REAL=0:32.25
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=31.91
+SYS=0.00
+REAL=0:31.95
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=31.97
+SYS=0.05
+REAL=0:32.04
+MEMT=0
+taskset -c 1 ruby hamming_numbers.ruby
+USER=32.51
+SYS=0.05
+REAL=0:32.68
+MEMT=0
+taskset -c 2 ruby hamming_numbers.ruby
+USER=32.13
+SYS=0.03
+REAL=0:32.24
+MEMT=0
+taskset -c 3 ruby hamming_numbers.ruby
+USER=32.03
+SYS=0.00
+REAL=0:32.06
+MEMT=0
+taskset -c 0 ruby hamming_numbers.ruby
+USER=32.12
+SYS=0.06
+REAL=0:32.20
+MEMT=0
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+ruby : nombre de lignes passées par la regexp :
+NB_LIGNES=22
+ruby : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

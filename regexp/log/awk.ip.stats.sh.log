@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de original-awk :20121220
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f ip.awk "/var/log/syslog.1"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+original-awk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=2092470d2308f19ccf0d039152be1c54c83da537898d24f555f01ae7c5d858a6
+awk : nombre de lignes passées par la regexp :
+NB_LIGNES=6
+original-awk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,536
+BYTES_TOTAL_HEAP_USAGE=3,064

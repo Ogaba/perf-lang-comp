@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.33
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.34
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.33
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.33
+MEMT=0
+COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.34
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
+USER=0.33
+SYS=0.00
+REAL=0:00.33
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
+USER=0.32
+SYS=0.00
+REAL=0:00.33
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
+USER=0.34
+SYS=0.00
+REAL=0:00.34
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,450
+BYTES_TOTAL_HEAP_USAGE=2,482

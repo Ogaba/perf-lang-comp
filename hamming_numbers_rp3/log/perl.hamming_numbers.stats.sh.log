@@ -1,0 +1,278 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 20, subversion 2 (v5.20.2) built for arm-linux-gnueabihf-thread-multi-64int
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.02
+SYS=0.00
+REAL=0:00.04
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.04
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.07
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.05
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.05
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.05
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.01
+REAL=0:00.05
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.01
+REAL=0:00.04
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.06
+MEMT=0
+taskset -c 3 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 perl hamming_numbers.perl
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+perl : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+perl : nombre de lignes passées par la regexp :
+NB_LIGNES=0
+Can't locate Math/GMPz.pm in @INC (you may need to install the Math::GMPz module) (@INC contains: /etc/perl /usr/local/lib/arm-linux-gnueabihf/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/arm-linux-gnueabihf/perl5/5.20 /usr/share/perl5 /usr/lib/arm-linux-gnueabihf/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at hamming_numbers.perl line 5.
+BEGIN failed--compilation aborted at hamming_numbers.perl line 5.
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

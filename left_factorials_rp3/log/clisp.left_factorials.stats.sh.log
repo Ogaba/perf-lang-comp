@@ -1,0 +1,36 @@
+Comparaison des binaires dans le calcul de left factorials :
+
+CONFIGURATION :
+Version de clisp :GNU CLISP 2.49 (2010-07-07) (built on lcy01-31.buildd [127.0.1.1])
+taskset -c 0 clisp left_factorials.clisp
+USER=731.32
+SYS=311.54
+REAL=21:22.37
+MEMT=0
+taskset -c 1 clisp left_factorials.clisp
+USER=722.47
+SYS=306.48
+REAL=18:25.41
+MEMT=0
+taskset -c 2 clisp left_factorials.clisp
+USER=705.82
+SYS=305.45
+REAL=17:44.34
+MEMT=0
+taskset -c 3 clisp left_factorials.clisp
+USER=538.31
+SYS=239.80
+REAL=12:59.58
+MEMT=0
+taskset -c 0 clisp left_factorials.clisp
+USER=507.80
+SYS=227.99
+REAL=12:16.06
+MEMT=0
+Exiting on signal 15
+./clisp.sh : ligne 15 : 29604 Complété              taskset -c 0 clisp left_factorials.clisp
+clisp : hachage de la sortie pour v�rifier que les donn�es en sortie sont les memes :
+HASH=e92fa2cf84fd21e7d2bda2ff081b96db44a1c3a20c21054feb5c42ec233bda67
+NB_LIGNES=14 /home/olivier/tmp/clisp.tmp
+./clisp.sh: ligne 27: fin de fichier (EOF) prématurée lors de la recherche du « " » correspondant
+./clisp.sh: ligne 30: erreur de syntaxe : fin de fichier prématurée

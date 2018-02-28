@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 1 (v5.26.1) built for i686-cygwin-threads-64int-multi
+COMMAND=perl anonymous_recursion.perl
+USER=26.23
+SYS=0.13
+REAL=0:27.06
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=28.71
+SYS=0.07
+REAL=0:29.20
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=26.17
+SYS=0.06
+REAL=0:26.80
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=25.95
+SYS=0.10
+REAL=0:26.46
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=26.30
+SYS=0.04
+REAL=0:26.94
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=26.02
+SYS=0.04
+REAL=0:26.32
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=25.95
+SYS=0.10
+REAL=0:26.35
+MEMT=0
+COMMAND=perl anonymous_recursion.perl
+USER=25.97
+SYS=0.03
+REAL=0:26.30
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36

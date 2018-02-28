@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=taskset -c 1 echo "" | python lychrel_numbers.python
+USER=1.71
+SYS=0.01
+REAL=0:01.73
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python lychrel_numbers.python
+USER=1.69
+SYS=0.00
+REAL=0:01.70
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python lychrel_numbers.python
+USER=1.67
+SYS=0.03
+REAL=0:01.70
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python lychrel_numbers.python
+USER=1.70
+SYS=0.00
+REAL=0:01.70
+MEMT=0
+COMMAND=taskset -c 1 echo "" | python lychrel_numbers.python
+USER=1.73
+SYS=0.00
+REAL=0:01.74
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python lychrel_numbers.python
+USER=1.68
+SYS=0.02
+REAL=0:01.71
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python lychrel_numbers.python
+USER=1.68
+SYS=0.01
+REAL=0:01.69
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python lychrel_numbers.python
+USER=1.69
+SYS=0.01
+REAL=0:01.70
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=8d68e610201a102b8da401d94821db29e80f05fcba33e3f165a7ed0fa522bc26
+NB_LIGNES=3
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,450
+BYTES_TOTAL_HEAP_USAGE=2,482

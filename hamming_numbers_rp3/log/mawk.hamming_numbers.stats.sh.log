@@ -1,0 +1,173 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de mawk :1.3.3
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=3.95
+SYS=0.13
+REAL=0:04.08
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=3.99
+SYS=0.08
+REAL=0:04.08
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.06
+SYS=0.01
+REAL=0:04.08
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.04
+SYS=0.03
+REAL=0:04.08
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.01
+SYS=0.08
+REAL=0:04.10
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.08
+REAL=0:04.12
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.04
+SYS=0.03
+REAL=0:04.08
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.04
+SYS=0.04
+REAL=0:04.09
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=3.99
+SYS=0.08
+REAL=0:04.08
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.05
+SYS=0.05
+REAL=0:04.12
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.06
+REAL=0:04.10
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.06
+SYS=0.04
+REAL=0:04.12
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.06
+REAL=0:04.10
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.00
+SYS=0.09
+REAL=0:04.11
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.07
+REAL=0:04.11
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.00
+SYS=0.09
+REAL=0:04.12
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.00
+SYS=0.07
+REAL=0:04.07
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.06
+REAL=0:04.10
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.05
+REAL=0:04.10
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.06
+REAL=0:04.10
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.06
+SYS=0.05
+REAL=0:04.13
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.05
+SYS=0.05
+REAL=0:04.12
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.00
+SYS=0.07
+REAL=0:04.08
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.04
+REAL=0:04.09
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.04
+SYS=0.06
+REAL=0:04.12
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.06
+SYS=0.04
+REAL=0:04.11
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.05
+SYS=0.05
+REAL=0:04.11
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=3.99
+SYS=0.08
+REAL=0:04.09
+MEMT=0
+taskset -c 1 echo "" | mawk -f hamming_numbers.awk
+USER=4.07
+SYS=0.02
+REAL=0:04.10
+MEMT=0
+taskset -c 2 echo "" | mawk -f hamming_numbers.awk
+USER=4.02
+SYS=0.05
+REAL=0:04.09
+MEMT=0
+taskset -c 3 echo "" | mawk -f hamming_numbers.awk
+USER=4.03
+SYS=0.06
+REAL=0:04.10
+MEMT=0
+taskset -c 0 echo "" | mawk -f hamming_numbers.awk
+USER=4.00
+SYS=0.07
+REAL=0:04.09
+MEMT=0
+mawk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=aee74d7b4568ba42bba0560df2563ed33c16deb3baa0f08cefd6a18d8146b37f
+mawk : nombre de lignes pass�es par la regexp :
+NB_LIGNES=22
+Illegal instruction
+tcl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=543
+551
+BYTES_TOTAL_HEAP_USAGE=567
+575

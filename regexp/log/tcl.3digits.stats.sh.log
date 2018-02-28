@@ -1,0 +1,243 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"
+couldn't read file "3digits.tcl": no such file or directory
+Command exited with non-zero status 1
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+couldn't read file "3digits.tcl": no such file or directory
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+tcl : nombre de lignes passées par la regexp :
+NB_LIGNES=0
+couldn't read file "3digits.tcl": no such file or directory
+tcl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,536
+BYTES_TOTAL_HEAP_USAGE=3,064

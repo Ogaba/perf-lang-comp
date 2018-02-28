@@ -1,0 +1,173 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de original-awk :20121220
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.01
+REAL=0:00.80
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.82
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.83
+SYS=0.00
+REAL=0:00.84
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.01
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.82
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.01
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.79
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.81
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.01
+REAL=0:00.82
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.79
+SYS=0.00
+REAL=0:00.80
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
+USER=0.80
+SYS=0.00
+REAL=0:00.81
+MEMT=0
+original-awk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=b4b286fa5362500fde523fe510b4309e662eb57cadca4437113c8270c3469280
+awk : nombre de lignes passées par la regexp :
+NB_LIGNES=22
+Illegal instruction
+original-awk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=543
+535
+BYTES_TOTAL_HEAP_USAGE=567
+559

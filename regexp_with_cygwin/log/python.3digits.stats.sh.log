@@ -1,0 +1,90 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.17
+REAL=0:00.26
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.18
+REAL=0:00.33
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.17
+REAL=0:00.27
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.18
+REAL=0:00.28
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.15
+REAL=0:00.27
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.09
+SYS=0.12
+REAL=0:00.26
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.07
+SYS=0.15
+REAL=0:00.26
+MEMT=0
+COMMAND=echo "" | python 3digits.python "/home/olivier/jd2/updateError.log"
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.18
+REAL=0:00.28
+MEMT=0
+Traceback (most recent call last):
+  File "3digits.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IOError: [Errno 2] No such file or directory: '/home/olivier/jd2/updateError.log'
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

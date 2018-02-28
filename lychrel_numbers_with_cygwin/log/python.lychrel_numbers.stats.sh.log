@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.78
+SYS=0.13
+REAL=0:07.09
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.58
+SYS=0.15
+REAL=0:06.89
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.41
+SYS=0.18
+REAL=0:06.67
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.47
+SYS=0.18
+REAL=0:06.73
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.27
+SYS=0.20
+REAL=0:06.55
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.53
+SYS=0.17
+REAL=0:06.75
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.47
+SYS=0.17
+REAL=0:06.78
+MEMT=0
+COMMAND=echo "" | python lychrel_numbers.python
+USER=6.70
+SYS=0.23
+REAL=0:07.02
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=8d68e610201a102b8da401d94821db29e80f05fcba33e3f165a7ed0fa522bc26
+NB_LIGNES=3

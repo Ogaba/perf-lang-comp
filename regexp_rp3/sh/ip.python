@@ -1,0 +1,6 @@
+import re, sys
+fh = open(sys.argv[1])
+for line in fh:
+    if re.search("(^| |-)(([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.){3}([01]?\\d\\d?|2[0-4]\\d|25[0-5])( |	|:|\\.|$)",line):
+        print line
+fh.close()

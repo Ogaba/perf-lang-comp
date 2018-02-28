@@ -1,0 +1,26 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de awk :Awk
+COMMAND=echo "" | awk -f hamming_numbers.awk
+USER=2.46
+SYS=0.15
+REAL=0:03.29
+MEMT=0
+COMMAND=echo "" | awk -f hamming_numbers.awk
+USER=2.21
+SYS=0.12
+REAL=0:02.53
+MEMT=0
+COMMAND=echo "" | awk -f hamming_numbers.awk
+USER=2.38
+SYS=0.12
+REAL=0:03.02
+MEMT=0
+COMMAND=echo "" | awk -f hamming_numbers.awk
+USER=2.23
+SYS=0.21
+REAL=0:02.83
+MEMT=0
+awk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=fdcff219e94114129de53bef9b12c4d3f44f83dc3c5eca7da49acea669fe05c8
+NB_LIGNES=22

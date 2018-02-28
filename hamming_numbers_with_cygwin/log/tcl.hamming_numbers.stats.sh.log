@@ -1,0 +1,26 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+COMMAND=tclsh hamming_numbers.tclsh
+USER=12.30
+SYS=0.17
+REAL=0:12.51
+MEMT=0
+COMMAND=tclsh hamming_numbers.tclsh
+USER=11.83
+SYS=0.06
+REAL=0:11.96
+MEMT=0
+COMMAND=tclsh hamming_numbers.tclsh
+USER=12.43
+SYS=0.10
+REAL=0:12.66
+MEMT=0
+COMMAND=tclsh hamming_numbers.tclsh
+USER=12.22
+SYS=0.10
+REAL=0:12.44
+MEMT=0
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22

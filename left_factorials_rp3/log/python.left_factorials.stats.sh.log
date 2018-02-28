@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.9
+taskset -c 1 python left_factorials.python
+USER=2.24
+SYS=0.01
+REAL=0:02.32
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.23
+SYS=0.01
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.24
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.22
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.22
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.23
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.24
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.22
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.28
+SYS=0.00
+REAL=0:02.28
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.20
+SYS=0.03
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.22
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.24
+MEMT=0
+taskset -c 1 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.24
+MEMT=0
+taskset -c 2 python left_factorials.python
+USER=2.23
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 3 python left_factorials.python
+USER=2.22
+SYS=0.00
+REAL=0:02.23
+MEMT=0
+taskset -c 0 python left_factorials.python
+USER=2.22
+SYS=0.01
+REAL=0:02.23
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=1a4eca8bba4c45f20250b95a7de89fe6e7bc882d92fb7bfcf9faf7621e943691
+python : nombre de lignes passées par la regexp :
+NB_LIGNES=15
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

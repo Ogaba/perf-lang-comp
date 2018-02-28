@@ -1,0 +1,1 @@
+taskset -c 0 tclsh 3digits.tcl "/home/olivier/jd2/updateError.log"

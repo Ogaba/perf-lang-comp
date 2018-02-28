@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=echo "" | python anonymous_recursion.python
+USER=75.56
+SYS=0.23
+REAL=1:18.86
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=76.17
+SYS=0.23
+REAL=1:17.97
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=82.78
+SYS=0.21
+REAL=1:23.74
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=90.02
+SYS=0.15
+REAL=1:31.94
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=92.85
+SYS=0.20
+REAL=1:34.42
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=90.76
+SYS=0.12
+REAL=1:31.75
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=93.10
+SYS=0.15
+REAL=1:35.08
+MEMT=0
+COMMAND=echo "" | python anonymous_recursion.python
+USER=74.31
+SYS=0.18
+REAL=1:15.53
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36

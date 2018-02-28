@@ -1,0 +1,325 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.05
+SYS=0.00
+REAL=0:00.05
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:235:in `initialize_dup': Interrupt
+	from /usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:235:in `dup'
+	from /usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:235:in `block in <module:RbConfig>'
+	from /usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:235:in `each'
+	from /usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:235:in `<module:RbConfig>'
+	from /usr/lib/x86_64-linux-gnu/ruby/2.3.0/rbconfig.rb:7:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:9:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:9:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+ip.ruby:8: syntax error, unexpected end-of-input
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems.rb:1129:in `block in register_default_spec': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1123:in `each'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1123:in `register_default_spec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:874:in `block in load_defaults'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:821:in `block in each_spec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:743:in `block (2 levels) in each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:742:in `each'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:742:in `block in each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:741:in `each'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:741:in `each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:819:in `each_spec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:871:in `load_defaults'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1258:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems.rb:1241:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1241:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/basic_specification.rb:202:in `internal_init': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:2136:in `internal_init'
+	from /usr/lib/ruby/2.3.0/rubygems/basic_specification.rb:34:in `initialize'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:2028:in `initialize'
+	from /usr/lib/ruby/gems/2.3.0/specifications/default/json-1.8.3.gemspec:4:in `new'
+	from /usr/lib/ruby/gems/2.3.0/specifications/default/json-1.8.3.gemspec:4:in `load'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:1164:in `eval'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:1164:in `load'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:820:in `block in each_spec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:743:in `block (2 levels) in each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:742:in `each'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:742:in `block in each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:741:in `each'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:741:in `each_gemspec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:819:in `each_spec'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:871:in `load_defaults'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1258:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.01
+REAL=0:00.03
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.01
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/basic_specification.rb:6:in `<top (required)>': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/specification.rb:10:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:10:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 1 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/specification.rb:12:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:12:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 2 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/specification.rb:15:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:15:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 3 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/util/list.rb:3:in `<module:Gem>': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/util/list.rb:2:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:16:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:16:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.02
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+taskset -c 0 cat "/var/log/syslog.1" | ruby ip.ruby
+/usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `require': Interrupt
+	from /usr/lib/ruby/2.3.0/rubygems/specification.rb:14:in `<top (required)>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `require'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:1229:in `<module:Gem>'
+	from /usr/lib/ruby/2.3.0/rubygems.rb:116:in `<top (required)>'
+	from <internal:gem_prelude>:4:in `require'
+	from <internal:gem_prelude>:4:in `<internal:gem_prelude>'
+Command terminated by signal 2
+USER=0.03
+SYS=0.00
+REAL=0:00.02
+MEMT=0
+ip.ruby:8: syntax error, unexpected end-of-input
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ruby : nombre de lignes passées par la regexp :
+NB_LIGNES=0

@@ -1,0 +1,385 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.1.4
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.04
+SYS=0.00
+REAL=0:00.04
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.04
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.02
+SYS=0.01
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.02
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 1 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 2 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 3 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+taskset -c 0 gawk -f decimal_number.gawk "/home/olivier/jd2/updateError.log"
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+USER=0.03
+SYS=0.00
+REAL=0:00.03
+MEMT=0
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+gawk : hachage de la sortie pour v�rifier que les donn�es en sortie sont les memes :
+HASH=1e344c9debf22570bd50fd944cabaa3c3a30c97634902c61a274ae8a002a4356
+gawk : nombre de lignes pass�es par la regexp :
+NB_LIGNES=225456
+gawk: decimal_number.gawk:3: avertissement : séquence d'échappement « \. » traitée comme un simple « . »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \? » traitée comme un simple « ? »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \+ » traitée comme un simple « + »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \( » traitée comme un simple « ( »
+gawk: decimal_number.gawk:5: avertissement : séquence d'échappement « \) » traitée comme un simple « ) »
+gawk: decimal_number.gawk:9: avertissement : séquence d'échappement « \d » traitée comme un simple « d »
+gawk : consommation m�moire :
+BYTES_IN_USE_AT_EXIT=2,536
+BYTES_TOTAL_HEAP_USAGE=3,064

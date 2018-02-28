@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de kotlin :Kotlin version 1.2.10 (JRE 1.8.0_151-8u151-b12-0ubuntu0.17.10.2-b12)
+COMMAND=taskset -c 1 kotlin Anonymous_recursionKt
+USER=0.09
+SYS=0.01
+REAL=0:00.11
+MEMT=0
+COMMAND=taskset -c 2 kotlin Anonymous_recursionKt
+USER=0.08
+SYS=0.02
+REAL=0:00.25
+MEMT=0
+COMMAND=taskset -c 3 kotlin Anonymous_recursionKt
+USER=0.14
+SYS=0.00
+REAL=0:00.15
+MEMT=0
+COMMAND=taskset -c 0 kotlin Anonymous_recursionKt
+USER=0.09
+SYS=0.01
+REAL=0:00.11
+MEMT=0
+COMMAND=taskset -c 1 kotlin Anonymous_recursionKt
+USER=0.10
+SYS=0.01
+REAL=0:00.11
+MEMT=0
+COMMAND=taskset -c 2 kotlin Anonymous_recursionKt
+USER=0.08
+SYS=0.01
+REAL=0:00.24
+MEMT=0
+COMMAND=taskset -c 3 kotlin Anonymous_recursionKt
+USER=0.14
+SYS=0.01
+REAL=0:00.16
+MEMT=0
+COMMAND=taskset -c 0 kotlin Anonymous_recursionKt
+USER=0.11
+SYS=0.00
+REAL=0:00.11
+MEMT=0
+kotlin : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36
+kotlin : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,428
+BYTES_TOTAL_HEAP_USAGE=2,444

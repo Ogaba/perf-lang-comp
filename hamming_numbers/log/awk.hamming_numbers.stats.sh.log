@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de original-awk :20121220
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.84
+SYS=0.05
+REAL=0:03.90
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.51
+SYS=0.03
+REAL=0:03.60
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.52
+SYS=0.05
+REAL=0:03.57
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.57
+SYS=0.03
+REAL=0:03.62
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.67
+SYS=0.03
+REAL=0:03.71
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.55
+SYS=0.04
+REAL=0:03.59
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.53
+SYS=0.04
+REAL=0:03.58
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.76
+SYS=0.03
+REAL=0:03.80
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.83
+SYS=0.14
+REAL=0:04.00
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.82
+SYS=0.04
+REAL=0:03.88
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.57
+SYS=0.02
+REAL=0:03.62
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.77
+SYS=0.05
+REAL=0:03.83
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.61
+SYS=0.03
+REAL=0:03.64
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.58
+SYS=0.02
+REAL=0:03.61
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.54
+SYS=0.06
+REAL=0:03.60
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.74
+SYS=0.03
+REAL=0:03.78
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.68
+SYS=0.04
+REAL=0:03.73
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.56
+SYS=0.02
+REAL=0:03.58
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.76
+SYS=0.04
+REAL=0:03.81
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.64
+SYS=0.05
+REAL=0:03.69
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.58
+SYS=0.03
+REAL=0:03.62
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.55
+SYS=0.03
+REAL=0:03.58
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.55
+SYS=0.05
+REAL=0:03.60
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.55
+SYS=0.04
+REAL=0:03.59
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.52
+SYS=0.05
+REAL=0:03.57
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.57
+SYS=0.04
+REAL=0:03.62
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.53
+SYS=0.03
+REAL=0:03.56
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.54
+SYS=0.03
+REAL=0:03.58
+MEMT=0
+taskset -c 1 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.55
+SYS=0.03
+REAL=0:03.59
+MEMT=0
+taskset -c 2 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.59
+SYS=0.03
+REAL=0:03.62
+MEMT=0
+taskset -c 3 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.78
+SYS=0.04
+REAL=0:03.83
+MEMT=0
+taskset -c 0 echo "" | /usr/bin/original-awk -f hamming_numbers.awk
+USER=3.60
+SYS=0.03
+REAL=0:03.64
+MEMT=0
+original-awk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=20260abc7dfb8f57820643a041e01a3a4f809629f9e3b0544cbf44ef020126b2
+awk : nombre de lignes passées par la regexp :
+NB_LIGNES=22
+original-awk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,162
+BYTES_TOTAL_HEAP_USAGE=2,194

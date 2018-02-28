@@ -1,0 +1,4111 @@
+Récupération des expressions régulières pour chaque langage de programmation :
+[[:digit:]]{3}
+Nombre de lignes dans /home/olivier/jd2/updateError.log :
+29061 /home/olivier/jd2/updateError.log
+
+Application d'expression regulière avec différents programmes
+CONFIGURATION :
+Version de egrep :grep (GNU grep) 3.1
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 1 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 2 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 3 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+taskset -c 0 egrep '[[:digit:]]{3}' "/home/olivier/jd2/updateError.log"
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+egrep : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=9bd2e656ad53c520a56407fcc6b52d32
+egrep : nombre de lignes passées par la regexp :
+NB_LIGNES=5270
+egrep : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,010
+BYTES_TOTAL_HEAP_USAGE=4,609

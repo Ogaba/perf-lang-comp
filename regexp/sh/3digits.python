@@ -1,0 +1,6 @@
+import re, sys
+fh = open(sys.argv[1])
+for line in fh:
+    if re.search("(\\d\\d\\d)",line):
+        print line
+fh.close()

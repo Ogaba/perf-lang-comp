@@ -1,0 +1,14 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de original-awk :20121220
+taskset -c 0 echo "" | original-awk -f left_factorials.original-awk
+USER=0.12
+SYS=0.00
+REAL=0:00.12
+MEMT=0
+original-awk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=b4b286fa5362500fde523fe510b4309e662eb57cadca4437113c8270c3469280
+NB_LIGNES=22
+original-awk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,546
+BYTES_TOTAL_HEAP_USAGE=2,578

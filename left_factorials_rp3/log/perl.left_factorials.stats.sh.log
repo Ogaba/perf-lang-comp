@@ -1,0 +1,175 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 20, subversion 2 (v5.20.2) built for arm-linux-gnueabihf-thread-multi-64int
+taskset -c 0 perl left_factorials.perl
+USER=52.88
+SYS=0.02
+REAL=0:53.00
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.08
+SYS=0.01
+REAL=0:53.17
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.81
+SYS=0.01
+REAL=0:52.85
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.76
+SYS=0.00
+REAL=0:52.86
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=52.94
+SYS=0.04
+REAL=0:53.07
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.13
+SYS=0.01
+REAL=0:53.22
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.64
+SYS=0.02
+REAL=0:52.70
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.72
+SYS=0.02
+REAL=0:52.82
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=53.28
+SYS=0.01
+REAL=0:53.39
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=52.98
+SYS=0.02
+REAL=0:53.07
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.81
+SYS=0.00
+REAL=0:52.85
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.95
+SYS=0.00
+REAL=0:53.02
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=52.93
+SYS=0.01
+REAL=0:53.06
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.02
+SYS=0.02
+REAL=0:53.15
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.81
+SYS=0.00
+REAL=0:52.86
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=53.22
+SYS=0.00
+REAL=0:53.28
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=53.42
+SYS=0.01
+REAL=0:53.49
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.07
+SYS=0.00
+REAL=0:53.18
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.70
+SYS=0.01
+REAL=0:52.76
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.75
+SYS=0.00
+REAL=0:52.82
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=52.86
+SYS=0.00
+REAL=0:52.91
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.05
+SYS=0.00
+REAL=0:53.17
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.81
+SYS=0.02
+REAL=0:52.88
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.73
+SYS=0.00
+REAL=0:52.79
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=52.92
+SYS=0.02
+REAL=0:53.00
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.05
+SYS=0.02
+REAL=0:53.16
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.64
+SYS=0.04
+REAL=0:52.77
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=53.14
+SYS=0.03
+REAL=0:53.23
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=53.06
+SYS=0.04
+REAL=0:53.16
+MEMT=0
+taskset -c 1 perl left_factorials.perl
+USER=53.47
+SYS=0.00
+REAL=0:53.57
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=52.81
+SYS=0.01
+REAL=0:52.90
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=52.73
+SYS=0.03
+REAL=0:52.81
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=53.34
+SYS=0.01
+REAL=0:53.41
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=60d4026dec8eddf3cab17c997ba816d6cc7e6d01c5b0aff64c14a4f0f9810a42
+perl : nombre de lignes passées par la regexp :
+NB_LIGNES=31
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

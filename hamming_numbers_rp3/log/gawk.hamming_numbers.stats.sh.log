@@ -1,0 +1,176 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.1.1
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 2 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 3 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 echo "" gawk -M -f hamming_numbers.awk
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=cdb0e8a02bdbbc2762dd1684422531441ee93145a91d9e1988c218c23a58f68f
+gawk : nombre de lignes passées par la regexp :
+NB_LIGNES=1
+./gawk.sh : ligne 23 : 32116 Instruction non permise valgrind --log-file=grindout ./a.out > /dev/null
+gawk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=412
+BYTES_TOTAL_HEAP_USAGE=412

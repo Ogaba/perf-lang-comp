@@ -1,0 +1,26 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.2.0
+COMMAND=echo "" | gawk -M -f hamming_numbers.gawk
+USER=20.20
+SYS=0.20
+REAL=0:21.24
+MEMT=0
+COMMAND=echo "" | gawk -M -f hamming_numbers.gawk
+USER=19.79
+SYS=0.20
+REAL=0:20.72
+MEMT=0
+COMMAND=echo "" | gawk -M -f hamming_numbers.gawk
+USER=18.81
+SYS=0.13
+REAL=0:19.18
+MEMT=0
+COMMAND=echo "" | gawk -M -f hamming_numbers.gawk
+USER=18.59
+SYS=0.13
+REAL=0:18.82
+MEMT=0
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22

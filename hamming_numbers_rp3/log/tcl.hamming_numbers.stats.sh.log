@@ -1,0 +1,175 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.25
+SYS=0.26
+REAL=0:27.52
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.38
+SYS=0.30
+REAL=0:27.75
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.32
+SYS=0.17
+REAL=0:27.56
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.22
+SYS=0.14
+REAL=0:27.37
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.26
+SYS=0.13
+REAL=0:27.42
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.32
+SYS=0.25
+REAL=0:27.63
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.25
+SYS=0.14
+REAL=0:27.44
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.18
+SYS=0.16
+REAL=0:27.36
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.36
+SYS=0.18
+REAL=0:27.57
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.36
+SYS=0.19
+REAL=0:27.62
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.29
+SYS=0.18
+REAL=0:27.53
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.21
+SYS=0.14
+REAL=0:27.36
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.44
+SYS=0.15
+REAL=0:27.61
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.48
+SYS=0.18
+REAL=0:27.73
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.27
+SYS=0.20
+REAL=0:27.54
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.43
+SYS=0.13
+REAL=0:27.58
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.20
+SYS=0.20
+REAL=0:27.41
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.44
+SYS=0.23
+REAL=0:27.73
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.28
+SYS=0.22
+REAL=0:27.57
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.18
+SYS=0.14
+REAL=0:27.33
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.32
+SYS=0.18
+REAL=0:27.52
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.36
+SYS=0.24
+REAL=0:27.64
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.39
+SYS=0.18
+REAL=0:27.67
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.24
+SYS=0.20
+REAL=0:27.45
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.44
+SYS=0.19
+REAL=0:27.65
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.37
+SYS=0.23
+REAL=0:27.65
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.24
+SYS=0.13
+REAL=0:27.45
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.36
+SYS=0.18
+REAL=0:27.55
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.23
+SYS=0.18
+REAL=0:27.44
+MEMT=0
+taskset -c 1 tclsh hamming_numbers.tcl
+USER=27.41
+SYS=0.19
+REAL=0:27.66
+MEMT=0
+taskset -c 2 tclsh hamming_numbers.tcl
+USER=27.37
+SYS=0.15
+REAL=0:27.59
+MEMT=0
+taskset -c 3 tclsh hamming_numbers.tcl
+USER=27.31
+SYS=0.21
+REAL=0:27.54
+MEMT=0
+taskset -c 0 tclsh hamming_numbers.tcl
+USER=27.28
+SYS=0.22
+REAL=0:27.54
+MEMT=0
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+tcl : nombre de lignes passées par la regexp :
+NB_LIGNES=22
+tcl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

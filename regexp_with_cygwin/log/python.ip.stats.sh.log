@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.12
+SYS=0.15
+REAL=0:00.35
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.13
+SYS=0.10
+REAL=0:00.34
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.12
+SYS=0.18
+REAL=0:00.37
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.20
+SYS=0.13
+REAL=0:00.43
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.14
+SYS=0.13
+REAL=0:00.35
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.17
+SYS=0.10
+REAL=0:00.35
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.09
+SYS=0.16
+REAL=0:00.35
+MEMT=0
+COMMAND=echo "" | python ip.python "/var/log/setup.log"
+USER=0.17
+SYS=0.10
+REAL=0:00.36
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=dff94b97c74b8803264f80ddfc0fc79323ef05e09d8889ea75b1190ed6ac593b
+NB_LIGNES=6

@@ -1,0 +1,63 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.2.0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.09
+REAL=0:00.16
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.07
+REAL=0:00.17
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.09
+REAL=0:00.19
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.03
+SYS=0.07
+REAL=0:00.17
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.04
+SYS=0.06
+REAL=0:00.20
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.04
+SYS=0.09
+REAL=0:00.20
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.03
+SYS=0.10
+REAL=0:00.17
+MEMT=0
+COMMAND=echo "" | gawk -M -f 3digits.gawk "/home/olivier/jd2/updateError.log"
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.15
+REAL=0:00.21
+MEMT=0
+gawk: fatal : impossible d'ouvrir le fichier « /home/olivier/jd2/updateError.log » en lecture (No such file or directory)
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

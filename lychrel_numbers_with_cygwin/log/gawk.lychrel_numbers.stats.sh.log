@@ -1,0 +1,39 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.2.0
+COMMAND=echo "" | gawk -M -f lychrel_numbers.gawk
+gawk: fatal : impossible d'ouvrir le fichier source « lychrel_numbers.gawk » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.03
+SYS=0.16
+REAL=0:00.71
+MEMT=0
+COMMAND=echo "" | gawk -M -f lychrel_numbers.gawk
+gawk: fatal : impossible d'ouvrir le fichier source « lychrel_numbers.gawk » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.13
+REAL=0:00.71
+MEMT=0
+COMMAND=echo "" | gawk -M -f lychrel_numbers.gawk
+gawk: fatal : impossible d'ouvrir le fichier source « lychrel_numbers.gawk » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.01
+SYS=0.17
+REAL=0:00.78
+MEMT=0
+COMMAND=echo "" | gawk -M -f lychrel_numbers.gawk
+gawk: fatal : impossible d'ouvrir le fichier source « lychrel_numbers.gawk » en lecture (No such file or directory)
+Command exited with non-zero status 2
+USER=0.06
+SYS=0.09
+REAL=0:00.70
+MEMT=0
+gawk: fatal : impossible d'ouvrir le fichier source « lychrel_numbers.gawk » en lecture (No such file or directory)
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0
+bash_functions.sh: ligne 97: valgrind : commande introuvable
+gawk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=grep: grindout: No such file or directory
+BYTES_TOTAL_HEAP_USAGE=grep: grindout: No such file or directory

@@ -1,0 +1,9 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.2.0
+COMMAND=echo "" | gawk -M -f modular_exp.gawk
+Command terminated by signal 2
+USER=29406.28
+SYS=8.68
+REAL=22:09:27
+MEMT=0

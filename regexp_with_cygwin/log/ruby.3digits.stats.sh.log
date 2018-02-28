@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.3.3p222 (2016-11-21 revision 9808) [i386-cygwin]
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.09
+SYS=0.45
+REAL=0:00.58
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.06
+SYS=0.42
+REAL=0:00.56
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.14
+SYS=0.40
+REAL=0:00.62
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.13
+SYS=0.31
+REAL=0:00.62
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.13
+SYS=0.34
+REAL=0:00.55
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.12
+SYS=0.34
+REAL=0:00.55
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.12
+SYS=0.34
+REAL=0:00.55
+MEMT=0
+COMMAND=ruby 3digits.ruby "/home/olivier/jd2/updateError.log"
+USER=0.15
+SYS=0.31
+REAL=0:00.54
+MEMT=0
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

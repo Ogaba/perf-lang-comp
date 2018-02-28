@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.1.4
+COMMAND=taskset -c 1 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.15
+SYS=0.19
+REAL=0:07.35
+MEMT=0
+COMMAND=taskset -c 2 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.28
+SYS=0.22
+REAL=0:07.51
+MEMT=0
+COMMAND=taskset -c 3 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.10
+SYS=0.21
+REAL=0:07.32
+MEMT=0
+COMMAND=taskset -c 0 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.42
+SYS=0.15
+REAL=0:07.58
+MEMT=0
+COMMAND=taskset -c 1 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.29
+SYS=0.18
+REAL=0:07.47
+MEMT=0
+COMMAND=taskset -c 2 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.19
+SYS=0.17
+REAL=0:07.37
+MEMT=0
+COMMAND=taskset -c 3 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.31
+SYS=0.16
+REAL=0:07.48
+MEMT=0
+COMMAND=taskset -c 0 echo "" | gawk -M -f hamming_numbers.gawk
+USER=7.27
+SYS=0.19
+REAL=0:07.47
+MEMT=0
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22
+gawk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,448
+BYTES_TOTAL_HEAP_USAGE=2,992

@@ -1,0 +1,19 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de bc :bc 1.06.95
+COMMAND=taskset -c 1 bc left_factorials.bc
+USER=134.15
+SYS=0.00
+REAL=2:14.23
+MEMT=0
+COMMAND=taskset -c 2 bc left_factorials.bc
+USER=133.77
+SYS=0.00
+REAL=2:13.86
+MEMT=0
+COMMAND=taskset -c 3 bc left_factorials.bc
+USER=133.79
+SYS=0.00
+REAL=2:13.94
+MEMT=0
+COMMAND=taskset -c 0 bc left_factorials.bc

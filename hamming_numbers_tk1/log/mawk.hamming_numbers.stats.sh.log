@@ -1,0 +1,66 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de mawk :1.3.3
+COMMAND=taskset -c 1 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 2 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 3 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 0 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 1 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 2 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 3 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+COMMAND=taskset -c 0 echo "" | mawk -f hamming_numbers.mawk
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+mawk: cannot open hamming_numbers.mawk (No such file or directory)
+mawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0
+bash_functions.sh: line 136: 25856 Segmentation fault      valgrind --log-file=grindout ./a.out > /dev/null
+mawk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=BYTES_TOTAL_HEAP_USAGE=

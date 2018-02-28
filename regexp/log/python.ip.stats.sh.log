@@ -1,0 +1,103 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+taskset -c 1 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.21
+REAL=0:01.19
+MEMT=0
+taskset -c 2 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.15
+REAL=0:00.26
+MEMT=0
+taskset -c 3 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.12
+REAL=0:00.24
+MEMT=0
+taskset -c 0 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.15
+REAL=0:00.27
+MEMT=0
+taskset -c 1 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.12
+REAL=0:00.22
+MEMT=0
+taskset -c 2 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.18
+REAL=0:00.25
+MEMT=0
+taskset -c 3 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.06
+SYS=0.23
+REAL=0:00.87
+MEMT=0
+taskset -c 0 echo "" | python ip.python
+./exec.sh: ligne 1: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.21
+REAL=0:00.30
+MEMT=0
+./python.sh: ligne 25: taskset : commande introuvable
+Traceback (most recent call last):
+  File "ip.python", line 2, in <module>
+    fh = open(sys.argv[1])
+IndexError: list index out of range
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0
+bash_functions.sh: ligne 107: valgrind : commande introuvable
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=grep: grindout: No such file or directory
+BYTES_TOTAL_HEAP_USAGE=grep: grindout: No such file or directory

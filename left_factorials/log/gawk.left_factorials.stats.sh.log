@@ -1,0 +1,29 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.1.4
+taskset -c 1 echo "" | gawk -M -f left_factorials.gawk
+USER=0.24
+SYS=0.00
+REAL=0:00.24
+MEMT=0
+taskset -c 2 echo "" | gawk -M -f left_factorials.gawk
+USER=0.24
+SYS=0.00
+REAL=0:00.24
+MEMT=0
+taskset -c 3 echo "" | gawk -M -f left_factorials.gawk
+USER=0.22
+SYS=0.00
+REAL=0:00.23
+MEMT=0
+taskset -c 0 echo "" | gawk -M -f left_factorials.gawk
+USER=0.23
+SYS=0.00
+REAL=0:00.24
+MEMT=0
+gawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=f02a36786f4ae769aa0682fcbb3a00155f5d9e8cfd894ad337e1018b7d846cc3
+NB_LIGNES=22
+gawk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,574
+BYTES_TOTAL_HEAP_USAGE=3,118

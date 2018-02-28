@@ -1,0 +1,2 @@
+# trouver une adresse TCP/IP valide n'importe où dans une ligne
+/(^| |-)(([01]?[[:digit:]][[:digit:]]?|2[0-4][[:digit:]]|25[0-5])\.){3}([01]?[[:digit:]][[:digit:]]?|2[0-4][[:digit:]]|25[0-5])( |	|:|\.|$)/

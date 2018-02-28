@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de kotlin :Kotlin version 1.2.10 (JRE 1.8.0_161-b12)
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.09
+SYS=0.24
+REAL=0:04.50
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.07
+SYS=0.24
+REAL=0:04.44
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.06
+SYS=0.25
+REAL=0:04.33
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.07
+SYS=0.32
+REAL=0:04.34
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.09
+SYS=0.24
+REAL=0:04.24
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.04
+SYS=0.30
+REAL=0:04.37
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.06
+SYS=0.21
+REAL=0:04.30
+MEMT=0
+COMMAND=kotlin Lychrel_numbersKt
+USER=0.09
+SYS=0.27
+REAL=0:04.30
+MEMT=0
+kotlin : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=ac164c57b85a2283a92e29267d6a06d39e8848385367f82d74505e6ac86ddcea
+NB_LIGNES=3

@@ -1,0 +1,1 @@
+taskset -c 0 mawk -f 3digits.awk "/home/olivier/jd2/updateError.log"

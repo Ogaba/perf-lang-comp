@@ -1,0 +1,29 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 0 (v5.26.0) built for x86_64-linux-gnu-thread-multi
+taskset -c 1 perl left_factorials.perl
+USER=5.23
+SYS=0.00
+REAL=0:05.23
+MEMT=0
+taskset -c 2 perl left_factorials.perl
+USER=5.21
+SYS=0.00
+REAL=0:05.23
+MEMT=0
+taskset -c 3 perl left_factorials.perl
+USER=5.26
+SYS=0.00
+REAL=0:05.28
+MEMT=0
+taskset -c 0 perl left_factorials.perl
+USER=5.25
+SYS=0.00
+REAL=0:05.26
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=60d4026dec8eddf3cab17c997ba816d6cc7e6d01c5b0aff64c14a4f0f9810a42
+NB_LIGNES=31
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,546
+BYTES_TOTAL_HEAP_USAGE=2,562

@@ -1,0 +1,54 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de clisp :GNU CLISP 2.49+ (2010-07-17) (built on moufang [10.128.131.78])
+COMMAND=clisp lychrel_numbers.clisp
+*** - PARSE-NAMESTRING : Erreur de syntaxe dans le nom de fichier
+      "/home/POGR08721/Comparaison performance temps de traitement de différents langages/lychrel_numbers_with_cygwin/sh/"
+      , à la position 67.
+
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.13
+REAL=0:01.30
+MEMT=0
+COMMAND=clisp lychrel_numbers.clisp
+*** - PARSE-NAMESTRING : Erreur de syntaxe dans le nom de fichier
+      "/home/POGR08721/Comparaison performance temps de traitement de différents langages/lychrel_numbers_with_cygwin/sh/"
+      , à la position 67.
+
+Command exited with non-zero status 1
+USER=0.03
+SYS=0.21
+REAL=0:01.32
+MEMT=0
+COMMAND=clisp lychrel_numbers.clisp
+*** - PARSE-NAMESTRING : Erreur de syntaxe dans le nom de fichier
+      "/home/POGR08721/Comparaison performance temps de traitement de différents langages/lychrel_numbers_with_cygwin/sh/"
+      , à la position 67.
+
+Command exited with non-zero status 1
+USER=0.04
+SYS=0.20
+REAL=0:01.06
+MEMT=0
+COMMAND=clisp lychrel_numbers.clisp
+*** - PARSE-NAMESTRING : Erreur de syntaxe dans le nom de fichier
+      "/home/POGR08721/Comparaison performance temps de traitement de différents langages/lychrel_numbers_with_cygwin/sh/"
+      , à la position 67.
+
+Command exited with non-zero status 1
+USER=0.01
+SYS=0.17
+REAL=0:01.45
+MEMT=0
+*** - PARSE-NAMESTRING : Erreur de syntaxe dans le nom de fichier
+      "/home/POGR08721/Comparaison performance temps de traitement de différents langages/lychrel_numbers_with_cygwin/sh/"
+      , à la position 67.
+
+clisp : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0
+bash_functions.sh: ligne 97: valgrind : commande introuvable
+clisp : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=grep: grindout: No such file or directory
+BYTES_TOTAL_HEAP_USAGE=grep: grindout: No such file or directory

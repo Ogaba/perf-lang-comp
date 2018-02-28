@@ -1,0 +1,29 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]
+taskset -c 1 ruby left_factorials.ruby
+USER=0.15
+SYS=0.00
+REAL=0:00.15
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=0.17
+SYS=0.00
+REAL=0:00.17
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=0.14
+SYS=0.02
+REAL=0:00.16
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=0.14
+SYS=0.01
+REAL=0:00.16
+MEMT=0
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=8cc8801e26f5360590646bb44aa2ac0e12af679f6e7ad4f978de707e42816e89
+NB_LIGNES=31
+ruby : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,546
+BYTES_TOTAL_HEAP_USAGE=2,562

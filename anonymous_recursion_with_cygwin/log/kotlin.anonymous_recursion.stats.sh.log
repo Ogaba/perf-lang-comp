@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de kotlin :1.2.10
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.07
+SYS=0.36
+REAL=0:00.90
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.07
+SYS=0.30
+REAL=0:00.81
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.03
+SYS=0.33
+REAL=0:00.92
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.12
+SYS=0.27
+REAL=0:00.95
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.07
+SYS=0.29
+REAL=0:00.82
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.07
+SYS=0.25
+REAL=0:00.81
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.03
+SYS=0.28
+REAL=0:00.79
+MEMT=0
+COMMAND=kotlin Anonymous_recursionKt
+USER=0.01
+SYS=0.35
+REAL=0:00.82
+MEMT=0
+kotlin : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36

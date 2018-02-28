@@ -1,0 +1,90 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 1 (v5.26.1) built for i686-cygwin-threads-64int-multi
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.00
+SYS=0.06
+REAL=0:00.14
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.00
+SYS=0.07
+REAL=0:00.14
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.01
+SYS=0.06
+REAL=0:00.15
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.00
+SYS=0.06
+REAL=0:00.13
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.00
+SYS=0.07
+REAL=0:00.14
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.00
+SYS=0.10
+REAL=0:00.15
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.01
+SYS=0.09
+REAL=0:00.15
+MEMT=0
+COMMAND=perl decimal_number.perl "/home/olivier/jd2/updateError.log"
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+Command exited with non-zero status 255
+USER=0.01
+SYS=0.04
+REAL=0:00.13
+MEMT=0
+Semicolon seems to be missing at decimal_number.perl line 4.
+Final $ should be \$ or $name at decimal_number.perl line 3, within string
+syntax error at decimal_number.perl line 3, near "="^-?[[:digit:]]+(,[[:digit:]]+)*(\.[[:digit:]]+(e[[:digit:]]+)?)?$""
+Execution of decimal_number.perl aborted due to compilation errors.
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

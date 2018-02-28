@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]
+COMMAND=taskset -c 1 ruby lychrel_numbers.ruby
+USER=2.85
+SYS=0.04
+REAL=0:02.89
+MEMT=0
+COMMAND=taskset -c 2 ruby lychrel_numbers.ruby
+USER=2.82
+SYS=0.04
+REAL=0:02.86
+MEMT=0
+COMMAND=taskset -c 3 ruby lychrel_numbers.ruby
+USER=2.87
+SYS=0.01
+REAL=0:02.88
+MEMT=0
+COMMAND=taskset -c 0 ruby lychrel_numbers.ruby
+USER=2.86
+SYS=0.03
+REAL=0:02.90
+MEMT=0
+COMMAND=taskset -c 1 ruby lychrel_numbers.ruby
+USER=2.84
+SYS=0.02
+REAL=0:02.87
+MEMT=0
+COMMAND=taskset -c 2 ruby lychrel_numbers.ruby
+USER=2.82
+SYS=0.04
+REAL=0:02.87
+MEMT=0
+COMMAND=taskset -c 3 ruby lychrel_numbers.ruby
+USER=2.82
+SYS=0.03
+REAL=0:02.86
+MEMT=0
+COMMAND=taskset -c 0 ruby lychrel_numbers.ruby
+USER=2.86
+SYS=0.03
+REAL=0:02.90
+MEMT=0
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=cf7a67d9952f5aa388ce37e9974bb7f3604ccc4b0ff4a210f5fb5ef8266a3615
+NB_LIGNES=3
+ruby : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,420
+BYTES_TOTAL_HEAP_USAGE=2,436

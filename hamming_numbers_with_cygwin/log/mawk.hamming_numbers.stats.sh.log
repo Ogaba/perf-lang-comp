@@ -1,0 +1,34 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de mawk :COMMAND=echo "" | mawk -f hamming_numbers.mawk
+./exec.sh: ligne 1: mawk : commande introuvable
+Command exited with non-zero status 127
+USER=0.00
+SYS=0.07
+REAL=0:00.23
+MEMT=0
+COMMAND=echo "" | mawk -f hamming_numbers.mawk
+./exec.sh: ligne 1: mawk : commande introuvable
+Command exited with non-zero status 127
+USER=0.00
+SYS=0.10
+REAL=0:00.24
+MEMT=0
+COMMAND=echo "" | mawk -f hamming_numbers.mawk
+./exec.sh: ligne 1: mawk : commande introuvable
+Command exited with non-zero status 127
+USER=0.01
+SYS=0.07
+REAL=0:00.23
+MEMT=0
+COMMAND=echo "" | mawk -f hamming_numbers.mawk
+./exec.sh: ligne 1: mawk : commande introuvable
+Command exited with non-zero status 127
+USER=0.03
+SYS=0.09
+REAL=0:00.34
+MEMT=0
+./mawk.sh: ligne 24: mawk : commande introuvable
+mawk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

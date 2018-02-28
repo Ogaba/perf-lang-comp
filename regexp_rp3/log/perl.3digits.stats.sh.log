@@ -1,0 +1,280 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 20, subversion 2 (v5.20.2) built for arm-linux-gnueabihf-thread-multi-64int
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+taskset -c 1 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 2 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 3 cat "" | perl .perl
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.00
+MEMT=0
+taskset -c 0 cat "" | perl .perl
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+cat: : Aucun fichier ou dossier de ce type
+Command exited with non-zero status 2
+USER=0.00
+SYS=0.00
+REAL=0:00.01
+MEMT=0
+cat: : Aucun fichier ou dossier de ce type
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+perl : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+perl : nombre de lignes passées par la regexp :
+NB_LIGNES=0
+Can't open perl script ".perl": Aucun fichier ou dossier de ce type
+Illegal instruction
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=525
+533
+BYTES_TOTAL_HEAP_USAGE=549
+557

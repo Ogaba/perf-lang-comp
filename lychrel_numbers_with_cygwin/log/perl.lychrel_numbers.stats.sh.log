@@ -1,0 +1,72 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 26, subversion 1 (v5.26.1) built for i686-cygwin-threads-64int-multi
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.09
+SYS=0.12
+REAL=0:00.54
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.07
+SYS=0.15
+REAL=0:00.31
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.10
+SYS=0.10
+REAL=0:00.29
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.06
+SYS=0.15
+REAL=0:00.29
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.09
+SYS=0.12
+REAL=0:00.28
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.09
+SYS=0.10
+REAL=0:00.26
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.04
+SYS=0.15
+REAL=0:00.28
+MEMT=0
+COMMAND=perl lychrel_numbers.perl
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+Command exited with non-zero status 2
+USER=0.06
+SYS=0.17
+REAL=0:00.28
+MEMT=0
+Can't locate Const/Fast.pm in @INC (you may need to install the Const::Fast module) (@INC contains: /usr/local/lib/perl5/site_perl/5.26/i686-cygwin-threads-64int /usr/local/share/perl5/site_perl/5.26 /usr/lib/perl5/vendor_perl/5.26/i686-cygwin-threads-64int /usr/share/perl5/vendor_perl/5.26 /usr/lib/perl5/5.26/i686-cygwin-threads-64int /usr/share/perl5/5.26) at lychrel_numbers.perl line 4.
+BEGIN failed--compilation aborted at lychrel_numbers.perl line 4.
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0

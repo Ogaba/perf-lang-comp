@@ -1,0 +1,44 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de gawk :GNU Awk 4.1.4
+COMMAND=taskset -c 1 echo "" | gawk -M -f hamming_numbers.gawk
+USER=30.15
+SYS=0.39
+REAL=0:30.72
+MEMT=0
+COMMAND=taskset -c 2 echo "" | gawk -M -f hamming_numbers.gawk
+USER=30.19
+SYS=0.34
+REAL=0:30.70
+MEMT=0
+COMMAND=taskset -c 3 echo "" | gawk -M -f hamming_numbers.gawk
+USER=29.31
+SYS=0.32
+REAL=0:29.78
+MEMT=0
+COMMAND=taskset -c 0 echo "" | gawk -M -f hamming_numbers.gawk
+USER=28.57
+SYS=0.41
+REAL=0:29.11
+MEMT=0
+COMMAND=taskset -c 1 echo "" | gawk -M -f hamming_numbers.gawk
+USER=28.23
+SYS=0.44
+REAL=0:28.80
+MEMT=0
+COMMAND=taskset -c 2 echo "" | gawk -M -f hamming_numbers.gawk
+USER=29.84
+SYS=0.36
+REAL=0:30.32
+MEMT=0
+COMMAND=taskset -c 3 echo "" | gawk -M -f hamming_numbers.gawk
+USER=31.51
+SYS=0.28
+REAL=0:31.95
+MEMT=0
+COMMAND=taskset -c 0 echo "" | gawk -M -f hamming_numbers.gawk
+Command terminated by signal 2
+USER=13.20
+SYS=0.18
+REAL=0:13.45
+MEMT=0

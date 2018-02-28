@@ -1,0 +1,26 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.14
+COMMAND=echo "" | python hamming_numbers.python
+USER=0.65
+SYS=0.18
+REAL=0:00.87
+MEMT=0
+COMMAND=echo "" | python hamming_numbers.python
+USER=0.73
+SYS=0.21
+REAL=0:00.98
+MEMT=0
+COMMAND=echo "" | python hamming_numbers.python
+USER=0.67
+SYS=0.26
+REAL=0:00.98
+MEMT=0
+COMMAND=echo "" | python hamming_numbers.python
+USER=0.65
+SYS=0.20
+REAL=0:00.95
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
+NB_LIGNES=22

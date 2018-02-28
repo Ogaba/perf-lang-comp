@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.1.5p273 (2014-11-13) [arm-linux-gnueabihf]
+taskset -c 1 ruby left_factorials.ruby
+USER=1.16
+SYS=0.05
+REAL=0:01.25
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.12
+SYS=0.07
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.13
+SYS=0.06
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.10
+SYS=0.10
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.15
+SYS=0.06
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.11
+SYS=0.08
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.15
+SYS=0.09
+REAL=0:01.25
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.12
+SYS=0.08
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.09
+SYS=0.11
+REAL=0:01.20
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.08
+SYS=0.11
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.12
+SYS=0.07
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.12
+SYS=0.08
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.10
+SYS=0.10
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.12
+SYS=0.07
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.15
+SYS=0.05
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.11
+SYS=0.09
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.14
+SYS=0.07
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.10
+SYS=0.09
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.10
+SYS=0.09
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.11
+SYS=0.09
+REAL=0:01.20
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.11
+SYS=0.09
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.10
+SYS=0.09
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.14
+SYS=0.05
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.12
+SYS=0.08
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.14
+SYS=0.06
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.12
+SYS=0.07
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.10
+SYS=0.09
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.13
+SYS=0.07
+REAL=0:01.21
+MEMT=0
+taskset -c 1 ruby left_factorials.ruby
+USER=1.15
+SYS=0.06
+REAL=0:01.21
+MEMT=0
+taskset -c 2 ruby left_factorials.ruby
+USER=1.11
+SYS=0.08
+REAL=0:01.20
+MEMT=0
+taskset -c 3 ruby left_factorials.ruby
+USER=1.15
+SYS=0.04
+REAL=0:01.20
+MEMT=0
+taskset -c 0 ruby left_factorials.ruby
+USER=1.12
+SYS=0.08
+REAL=0:01.20
+MEMT=0
+ruby : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=8cc8801e26f5360590646bb44aa2ac0e12af679f6e7ad4f978de707e42816e89
+ruby : nombre de lignes passées par la regexp :
+NB_LIGNES=31
+ruby : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=535
+BYTES_TOTAL_HEAP_USAGE=543

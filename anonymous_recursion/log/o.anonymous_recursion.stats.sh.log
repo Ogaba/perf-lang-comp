@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de  :./o.sh: ligne 18: gcc.exe : commande introuvable
+COMMAND=taskset -c 1 ./anonymous_recursion.o
+USER=0.23
+SYS=0.00
+REAL=0:00.23
+MEMT=0
+COMMAND=taskset -c 2 ./anonymous_recursion.o
+USER=0.37
+SYS=0.00
+REAL=0:00.38
+MEMT=0
+COMMAND=taskset -c 3 ./anonymous_recursion.o
+USER=0.21
+SYS=0.00
+REAL=0:00.46
+MEMT=0
+COMMAND=taskset -c 0 ./anonymous_recursion.o
+USER=0.23
+SYS=0.00
+REAL=0:00.23
+MEMT=0
+COMMAND=taskset -c 1 ./anonymous_recursion.o
+USER=0.22
+SYS=0.00
+REAL=0:00.23
+MEMT=0
+COMMAND=taskset -c 2 ./anonymous_recursion.o
+USER=0.38
+SYS=0.00
+REAL=0:00.39
+MEMT=0
+COMMAND=taskset -c 3 ./anonymous_recursion.o
+USER=0.22
+SYS=0.00
+REAL=0:00.48
+MEMT=0
+COMMAND=taskset -c 0 ./anonymous_recursion.o
+USER=0.23
+SYS=0.00
+REAL=0:00.23
+MEMT=0
+c compiled : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36

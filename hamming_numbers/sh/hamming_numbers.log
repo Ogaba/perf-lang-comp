@@ -1,0 +1,54 @@
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time awk -M -f hamming_numbers.awk 
+
+1000000: 519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+
+real	0m6.937s
+user	0m6.772s
+sys	0m0.156s
+
+gcc -Wall hamming_numbers.c -o hamming_numbers -lgmp
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time ./hamming_numbers 
+ 1,000,000: 519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+
+real	0m0.133s
+user	0m0.128s
+sys	0m0.004s
+
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time python hamming_numbers.python
+519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+
+real	0m0.462s
+user	0m0.460s
+sys	0m0.000s
+
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time ./hamming.exe 
+ocaml :
+The 1000000th is 519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+
+real	0m2.753s
+user	0m2.744s
+sys	0m0.008s
+
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time bc -q hamming_numbers.bc 
+51931278044838873608958984375000000000000000000000000000000000000000\
+0000000000000000
+
+real	0m3.899s
+user	0m3.844s
+sys	0m0.052s
+
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time ruby hamming_numbers.ruby 
+1000000 => 519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+elapsed: 3.861242748 seconds
+
+real	0m3.903s
+user	0m3.896s
+sys	0m0.004s
+
+olivier@olivier-ThinkPad-X240:~/developpement/Comparaison performance temps de traitement de différents langages$ time tclsh8.6 hamming_numbers.tcl 
+hamming{1000000} = 519312780448388736089589843750000000000000000000000000000000000000000000000000000000
+
+real	0m2.622s
+user	0m2.580s
+sys	0m0.044s
+

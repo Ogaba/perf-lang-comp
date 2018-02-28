@@ -1,0 +1,6 @@
+==16369== Memcheck, a memory error detector
+==16369== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16369== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==16369== Command: ./a.out
+==16369== Parent PID: 16198
+==16369== 

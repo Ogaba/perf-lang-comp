@@ -1,0 +1,37 @@
+  table.t2 {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Georgia;
+  }
+  .t2 caption {
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .t2 th, .t2 td {
+    padding: 4px 8px;
+    border: 2px solid #fff;
+    background: #fbd7b4;
+  }
+  .t2 thead th {
+    padding: 2px 8px;
+    background: #f69546;
+    text-align: left;
+    font-weight: normal;
+    font-size: 13px;
+    color: #fff;
+  }
+  .t2 tbody tr:nth-child(odd) *:nth-child(even), .t2 tbody tr:nth-child(even) *:nth-child(odd) {
+    background: #f3eddd;
+  }
+  .t2 tfoot th {
+    padding: 2px 8px;
+    background: #f69546;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+  }
+  .t2 tr *:nth-child(3), .t2 tr *:nth-child(4) {
+    text-align: right;
+  }

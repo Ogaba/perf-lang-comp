@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=77.82
+SYS=0.10
+REAL=1:18.53
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=82.83
+SYS=0.04
+REAL=1:24.48
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=88.18
+SYS=0.13
+REAL=1:30.43
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=84.41
+SYS=0.06
+REAL=1:25.21
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=83.30
+SYS=0.12
+REAL=1:23.62
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=72.30
+SYS=0.10
+REAL=1:12.91
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=72.29
+SYS=0.15
+REAL=1:13.76
+MEMT=0
+COMMAND=tclsh anonymous_recursion.tclsh
+USER=76.44
+SYS=0.10
+REAL=1:17.74
+MEMT=0
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36

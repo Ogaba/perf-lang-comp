@@ -1,0 +1,170 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de original-awk :20121220
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.01
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.09
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.01
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.10
+SYS=0.00
+REAL=0:00.10
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.09
+SYS=0.00
+REAL=0:00.09
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 1 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.07
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 2 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 3 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+taskset -c 0 /usr/bin/original-awk -f 3digits.awk "/home/olivier/jd2/updateError.log"
+USER=0.08
+SYS=0.00
+REAL=0:00.08
+MEMT=0
+original-awk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+awk : nombre de lignes passées par la regexp :
+NB_LIGNES=0
+original-awk : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=2,536
+BYTES_TOTAL_HEAP_USAGE=3,064

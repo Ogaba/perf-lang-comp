@@ -1,0 +1,46 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de tclsh :8.6
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.46
+SYS=0.07
+REAL=0:00.62
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.51
+SYS=0.04
+REAL=0:00.62
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.49
+SYS=0.06
+REAL=0:00.65
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.46
+SYS=0.06
+REAL=0:00.60
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.48
+SYS=0.06
+REAL=0:00.65
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.46
+SYS=0.09
+REAL=0:00.60
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.45
+SYS=0.06
+REAL=0:00.60
+MEMT=0
+COMMAND=tclsh lychrel_numbers.tclsh
+USER=0.46
+SYS=0.04
+REAL=0:00.60
+MEMT=0
+tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=cf7a67d9952f5aa388ce37e9974bb7f3604ccc4b0ff4a210f5fb5ef8266a3615
+NB_LIGNES=3
