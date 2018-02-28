@@ -1,0 +1,52 @@
+PERSO :
+One day a guy told me that if there are speed limits on roads, there are no acceleration limits on roads.
+That's why he bought a superpower car., he said.
+Yhee, that seems smart, but it does not : road is sometimes full nest of hens, sometimes temperature is too high (or too cold) for mechnical parts, sometimes it's raining, sometimes the road is traffic jamed..
+
+You understand that a significant number of parameters are engaged, from the car and outside the car. 
+So the good question is more, how far can I go with a tank of gas, with this traffic, this weather conditions, and so on.
+
+The same guy told me that bash is dead, that I should use a more convenient shell, like "PowerShell" for example.
+This is obviously bullshit, since bash seems to be used more than ever.
+But this is not fact, this is opinion : each of us is free to use what they consider best than others, so let me using what I want : I'll let you use what you want.
+
+Ok, and what about facts ? really ?
+Well this is the soul of the work I done here : using many different langages programming, tailor them to output the same things, compare their performances with statistical maths, and finally prove what is the best efficient program to do a specific output from input.
+The pleasure is then diffrent : it'll never be concerned by if I'm right or wrong, but who is doing the best job to have the most efficient algorithms.. and good computer languages, as best hardware concepts.
+
+Why I am doing this ?
+First because I'm a scientist : computer engineer and mathematician at the first steps,
+second I'm realy tired of human proclamations that are not proved,
+third I don't find yet theses informations on the net, for that time beeing,
+and finally because I wanted to participe to the open source community, with my small contribution.
+
+TECHNICAL :
+This is site is aimed to give statistical facts about performance of langages programming : tailor them to output the same things, compare their performances with statistical maths, and finally prove what is the best efficient program to do a specific output from input.
+
+There is also comparison between different version of one programming langage, and also comparison between different hardware architectures.
+
+The results are given raw to be transparent, but also relative to each others to evacuate hardware plateform dependances.
+
+It is using rosettacode.org for the algorithms used, and only the code posted here (bye the way, some of them does not work "out of the box" : still some errors or some additionnal packages to install ?)
+
+Poor time CPU spent working for a language does not mean this language has a coding problem : first have a look at the algorithms, the native or extented memory structures of this langage that would be better, and so on.
+
+If you think you have better algorithms, please consider posting them first on rosettacode.org before asking me changing anything in the experiments here.
+
+If you think there is better or missing option for command line for a specific langage program, tell me concisely and with small examples.
+
+If I don't answer you, don't blame me, I only have a small amount of time to participate to this project.
+
+D'ont blame again me if I'm wrong : help me to improve theses informations on this site.
+
+I respect faith, only if does not go against facts.
+So I won't answer you if what you need or what you want is not connected to scientific facts.
+
+The software is given as it is, and there is no garanty to work on your system.
+Use it as your own safe.
+
+PRE REQUISITES :
+You have to install bash, time (yes time package, not using the one embedded in bash) and optionnaly valgrind (for memory usage comparison).
+And of course all the languages you want to compare !
+
+Don't forget to include paths of various compiler, specially for Java ones (like kotlin).
