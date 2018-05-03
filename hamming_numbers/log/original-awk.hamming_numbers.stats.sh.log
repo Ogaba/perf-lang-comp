@@ -2,13 +2,13 @@ Compute result of CPU time consumed by different programming languages
 
 Version de original-awk :20121220
 COMMAND=taskset -c 0 echo "" | original-awk -f hamming_numbers.original-awk
-USER=3.76
+USER=3.24
 SYS=0.02
-REAL=0:03.79
+REAL=0:03.27
 MEMT=0
 original-awk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
 HASH=20260abc7dfb8f57820643a041e01a3a4f809629f9e3b0544cbf44ef020126b2
 NB_LIGNES=22
 original-awk : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,420
-BYTES_TOTAL_HEAP_USAGE=2,452
+BYTES_IN_USE_AT_EXIT=2,600
+BYTES_TOTAL_HEAP_USAGE=2,632

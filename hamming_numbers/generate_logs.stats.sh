@@ -12,7 +12,7 @@ function gen_stat() {
  # Elapsed real (wall clock) time used by the process, in [hours:]minutes.seconds. Keep only minutes.seconds (cut)
  grep REAL log/${1}.${2}.stats.sh.log | sed 's/REAL=//' | cut -d':' -f2 | gawk -f awk/maths.awk -f awk/stats.awk -v _cpu=REAL > log/${1}.${2}.stats.sh.log.2
  grep USER log/${1}.${2}.stats.sh.log | sed 's/USER=//' | gawk -f awk/maths.awk -f awk/stats.awk -v _cpu=USER >> log/${1}.${2}.stats.sh.log.2
- grep SYS log/${1}.${2}.stats.sh.log | sed 's/SYS=//' | gawk -f awk/maths.awk -f awk/stats.awk -v _cpu=SYS >> log/${1}.${2}.stats.sh.log.2
+ grep SYS  log/${1}.${2}.stats.sh.log | sed 's/SYS=//'  | gawk -f awk/maths.awk -f awk/stats.awk -v _cpu=SYS >> log/${1}.${2}.stats.sh.log.2
 }
 
 function gen_stat2() {
@@ -25,7 +25,7 @@ function gen_stat2() {
   fi
  done
  echo "LOG_NAMES=`ls log/*.stats.sh.log`" > log/${1}.stats.sh.log.2
- echo "MOST_PROBABLE_CORRECT_HASH=`get_most_probable_correct_hash HASH \"log/*.stats.sh.log\"`" >> log/${1}.stats.sh.log.2
+ echo -n "MOST_PROBABLE_CORRECT_HASH=`get_most_probable_correct_hash HASH \"log/*.stats.sh.log\"`" >> log/${1}.stats.sh.log.2
 }
 
 # $1 : activity to mesure

@@ -1,49 +1,49 @@
 Compute result of CPU time consumed by different programming languages
 
-Version de clisp :GNU CLISP 2.49 (2010-07-07) (built on lcy01-31.buildd [127.0.1.1])
+Version de clisp :GNU CLISP 2.49.60+ (2017-06-25) (built on lgw01-amd64-012.buildd [127.0.1.1])
 COMMAND=taskset -c 1 clisp hamming_numbers.clisp
-USER=12.07
-SYS=0.08
-REAL=0:12.16
+USER=11.53
+SYS=0.17
+REAL=0:11.70
 MEMT=0
 COMMAND=taskset -c 2 clisp hamming_numbers.clisp
-USER=12.00
-SYS=0.13
-REAL=0:12.17
+USER=11.64
+SYS=0.18
+REAL=0:11.83
 MEMT=0
 COMMAND=taskset -c 3 clisp hamming_numbers.clisp
-USER=11.88
-SYS=0.10
-REAL=0:11.99
+USER=11.60
+SYS=0.12
+REAL=0:11.73
 MEMT=0
 COMMAND=taskset -c 0 clisp hamming_numbers.clisp
-USER=11.90
-SYS=0.13
-REAL=0:12.05
+USER=11.75
+SYS=0.14
+REAL=0:11.90
 MEMT=0
 COMMAND=taskset -c 1 clisp hamming_numbers.clisp
-USER=12.16
-SYS=0.10
-REAL=0:12.27
+USER=11.55
+SYS=0.11
+REAL=0:11.67
 MEMT=0
 COMMAND=taskset -c 2 clisp hamming_numbers.clisp
-USER=12.03
-SYS=0.11
-REAL=0:12.15
+USER=11.67
+SYS=0.13
+REAL=0:11.81
 MEMT=0
 COMMAND=taskset -c 3 clisp hamming_numbers.clisp
-USER=12.00
-SYS=0.11
-REAL=0:12.17
+USER=11.65
+SYS=0.12
+REAL=0:11.78
 MEMT=0
 COMMAND=taskset -c 0 clisp hamming_numbers.clisp
-USER=11.98
-SYS=0.11
-REAL=0:12.11
+USER=11.45
+SYS=0.14
+REAL=0:11.60
 MEMT=0
 clisp : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
 HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
 NB_LIGNES=22
 clisp : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,420
-BYTES_TOTAL_HEAP_USAGE=2,436
+BYTES_IN_USE_AT_EXIT=2,600
+BYTES_TOTAL_HEAP_USAGE=2,616

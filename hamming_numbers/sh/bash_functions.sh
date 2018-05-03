@@ -4,27 +4,23 @@
 #
 # Author........... : OGA
 # Created.......... : 2017-10-03
-# Modified......... :
+# Modified......... : 2018-05-02
 # Notes............ : keep it as simple as possible
 #**************************************************************************h *#
 
 function get_most_probable_correct_hash() {
-# $1 : what to search ?
-# $2 : where to search ?
-declare -A MAP
-declare -A MAP2
-for _I in `grep $1 $2`; do
-	_HASH2=`echo "$_I" | cut -d':' -f2 | cut -d'=' -f2`
-	_F2=`echo "$_I" | cut -d':' -f1 | cut -d'/' -f2 | cut -d'.' -f1`
-	MAP[$_F2]=$_HASH2
-done
-for i in "${!MAP[@]}"; do
-	((MAP2[${MAP[$i]}]++))
-done
-for k in "${!MAP2[@]}"; do
-    echo "$k - ${MAP2["$k"]}"
-done |
-sort -n -k3 | tail -n 1 | cut -d' ' -f1
+	# $1 : what to search (regexp) ?
+	# $2 : where to search (file name) ?
+	grep $1 $2 |		# search regexp, here HASH, in file, here log/*.stats.sh.log,
+	cut -d'=' -f2 |		# select 2nd field of grep output, aka the value of HASH,
+	sort |			# perform a sort on all the values, it is mandatory for the
+	uniq -c |		# count of how many time values are present,
+	sort -n -k1 |		# now do a numeric sort on the resulted counts
+	tail -n 1 |		# to keep only the highest count of sorted values.
+	rev |			# And then, that's the trick part : we reverse
+	cut -d' ' -f1 |		# to only select the value from the begining of the line now.
+	rev			# Oh wait value is also reversed, so.. we reverse again.
+# and YES I love coreutils !
 }
 
 f_header() {
