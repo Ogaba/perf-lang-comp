@@ -1,0 +1,19 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de kotlin :1.3.50-release-112
+COMMAND=taskset -c 1 kotlin Left_factorialsKt
+error: could not find or load main class Left_factorialsKt
+Command exited with non-zero status 1
+USER=0.09
+SYS=0.01
+REAL=0:00.11
+MEMT=0
+./kotlin.sh: ligne 24: f_eval_command : commande introuvable
+kotlin : hash output to compare results between langages :
+cat: /home/olivier/tmp/15567.tmp: Aucun fichier ou dossier de ce type
+HASH=shasum: /home/olivier/tmp/15567.tmp: 
+NB_LIGNES=wc: /home/olivier/tmp/15567.tmp: Aucun fichier ou dossier de ce type
+error: could not find or load main class Left_factorialsKt
+kotlin : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=2,840

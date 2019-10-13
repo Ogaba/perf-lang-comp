@@ -1,105 +1,45 @@
 Compute result of CPU time consumed by different programming languages
 
-Version de clisp :GNU CLISP 2.49 (2010-07-07) (built on lcy01-31.buildd [127.0.1.1])
+Version de clisp :GNU CLISP 2.49.60+ (2017-06-25) (built on lgw01-amd64-012.buildd [127.0.1.1])
 COMMAND=taskset -c 1 clisp left_factorials.clisp
-USER=511.24
-SYS=259.46
-REAL=12:50.79
+USER=662.78
+SYS=333.30
+REAL=5:27:09
 MEMT=0
-COMMAND=taskset -c 2 clisp left_factorials.clisp
-USER=510.09
-SYS=258.16
-REAL=12:48.29
-MEMT=0
-COMMAND=taskset -c 3 clisp left_factorials.clisp
-USER=545.67
-SYS=284.08
-REAL=13:50.37
-MEMT=0
-COMMAND=taskset -c 0 clisp left_factorials.clisp
-USER=568.21
-SYS=295.57
-REAL=14:24.02
-MEMT=0
-COMMAND=taskset -c 1 clisp left_factorials.clisp
-USER=594.05
-SYS=311.81
-REAL=15:07.15
-MEMT=0
-COMMAND=taskset -c 2 clisp left_factorials.clisp
-USER=570.97
-SYS=299.22
-REAL=14:31.06
-MEMT=0
-COMMAND=taskset -c 3 clisp left_factorials.clisp
-USER=588.64
-SYS=307.88
-REAL=14:59.89
-MEMT=0
-COMMAND=taskset -c 0 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=431.00
-SYS=219.03
-REAL=50:27.31
-MEMT=0
-COMMAND=taskset -c 1 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.39
-SYS=0.08
-REAL=0:00.49
-MEMT=0
-COMMAND=taskset -c 2 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.02
-SYS=0.00
-REAL=0:00.03
-MEMT=0
-COMMAND=taskset -c 3 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.01
-SYS=0.00
-REAL=0:00.02
-MEMT=0
-COMMAND=taskset -c 0 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.02
-SYS=0.00
-REAL=0:00.03
-MEMT=0
-COMMAND=taskset -c 1 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.03
-SYS=0.00
-REAL=0:00.04
-MEMT=0
-COMMAND=taskset -c 2 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.01
-SYS=0.00
-REAL=0:00.02
-MEMT=0
-COMMAND=taskset -c 3 clisp left_factorials.clisp
-*** - EVAL : Interruption clavier
-Command terminated by signal 2
-USER=0.01
-SYS=0.00
-REAL=0:00.03
-MEMT=0
-COMMAND=taskset -c 0 clisp left_factorials.clisp
-*** - GC : Interruption clavier
-Command terminated by signal 2
-USER=0.19
-SYS=0.04
-REAL=0:00.24
-MEMT=0
-*** - EVAL : Interruption clavier
-clisp : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
-HASH=91caa508c9ccb94290506fd0f182036824429413519d6550b1c89f3f623534f6
-NB_LIGNES=11
+clisp : hash output to compare results between langages :
+0
+1
+2
+4
+10
+34
+154
+874
+5914
+46234
+409114
+128425485935180314
+9157958657951075573395300940314
+20935051082417771847631371547939998232420940314
+620960027832821612639424806694551108812720525606160920420940314
+141074930726669571000530822087000522211656242116439949000980378746128920420940314
+173639511802987526699717162409282876065556519849603157850853034644815111221599509216528920420940314
+906089587987695346534516804650290637694024830011956365184327674619752094289696314882008531991840922336528920420940314
+16695570072624210767034167688394623360733515163575864136345910335924039962404869510225723072235842668787507993136908442336528920420940314
+942786239765826579160595268206839381354754349601050974345395410407078230249590414458830117442618180732911203520208889371641659121356556442336528920420940314
+145722981061585297004706728001906071948635199234860720988658042536179281328615541936083296163475394237524337422204397431927131629058103519228197429698252556442336528920420940314
+2565
+5733
+9128
+12670
+16322
+20062
+23875
+27749
+31678
+35656
+HASH=ee9cabf274c416e307024ba37b4f9d267730b17e47356a7a401506a7c5296aa3
+NB_LIGNES=31
+clisp : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=2,840

@@ -1,0 +1,51 @@
+module Main where
+ 
+import Data.List
+ 
+procLychrel :: Integer -> [Integer]
+procLychrel a = a : pl 0 a
+  where
+    pl c n =
+      if c > 500
+        then []
+        else let s = n + reverseInteger n
+             in if isPalindrome s
+                  then [s]
+                  else s : pl (c + 1) s
+ 
+isPalindrome :: Integer -> Bool
+isPalindrome n =
+  let s = show n
+  in (s == reverse s)
+ 
+isLychrel :: Integer -> Bool
+isLychrel n = length (procLychrel n) > 500
+ 
+reverseInteger :: Integer -> Integer
+reverseInteger = read . reverse . show
+ 
+seedAndRelated :: (Int, [Integer], [Integer], Int)
+seedAndRelated =
+  let (seed, related, _) = foldl sar ([], [], []) [1 .. 10000]
+      lseed = length seed
+      lrelated = length related
+      totalCount = lseed + lrelated
+      pal = filter isPalindrome $ seed ++ related
+  in (totalCount, pal, seed, lrelated)
+  where
+    sar (seed, related, lych) x =
+      let s = procLychrel x
+          sIsLychrel = length s > 500
+          (isIn, isOut) = partition (`elem` lych) s
+          newLych = lych ++ isOut
+      in if sIsLychrel
+           then if null isIn -- seed lychrel number
+                  then (x : seed, related, newLych)
+                  else (seed, x : related, newLych) -- related lychrel number
+           else (seed, related, lych)
+ 
+main = do
+  let (totalCount, palindromicLychrel, lychrelSeeds, relatedCount) = seedAndRelated
+  putStrLn $ show lychrelSeeds
+  putStrLn $ show relatedCount
+  putStrLn $ show palindromicLychrel

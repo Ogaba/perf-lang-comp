@@ -1,6 +1,6 @@
 #!/usr/bin/sed -f
 #* h**************************************************************************#
-# Script sed : formatte la log sudo.log en 6 lignes (DATE, LOGNAME, TTY, PWD, USER, COMMAND)
+# Script sed
 #
 # Author........... : OGA
 # Created.......... : 2004-11-03

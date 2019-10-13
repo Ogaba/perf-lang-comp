@@ -4,7 +4,7 @@
 #
 # Author........... : OGA
 # Created.......... : 2017-12-12
-# Modified......... :
+# Modified......... : 2019-09-29
 # Notes............ : keep it as simple as possible
 # $1		    : activity to mesure
 # $2                : number of iterations
@@ -15,14 +15,17 @@ PRG_LANG=kotlin
 f_header
 
 echo -n "Version de $PRG_LANG :"
-$PRG_LANG -version | grep . | head -n1
+$PRG_LANG --version | grep . | head -n1
 
+# benchmarking loop
 for ((_C = 1; _C <= $2; _C++)); do
+	[[ $_DEBUG -eq 1 ]] && echo "f_for_kotlin $PRG_LANG $1 $_C"
 	f_for_kotlin $PRG_LANG $1 $_C
 done
 
-eval "$_COMMAND" > ~/tmp/$$.tmp
-
-f_hash $PRG_LANG
-
-f_valgrind $PRG_LANG
+# Run only once to hash outputs and calculate memory usage
+	# delete [], transform , to space, and sort numbers on each line
+	#eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | perl -ape '@F=sort @F;$_="@F\n"' > ~/tmp/$$.tmp
+	eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | f_sort_each_line_of_a_file > ~/tmp/$$.tmp
+	f_hash $PRG_LANG
+	f_valgrind $PRG_LANG

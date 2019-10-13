@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de perl :This is perl 5, version 24, subversion 1 (v5.24.1) built for arm-linux-gnueabihf-thread-multi-64int
+COMMAND=taskset -c 1 perl anonymous_recursion.perl
+USER=121.73
+SYS=0.00
+REAL=2:01.82
+MEMT=0
+COMMAND=taskset -c 2 perl anonymous_recursion.perl
+USER=120.37
+SYS=0.01
+REAL=2:00.55
+MEMT=0
+COMMAND=taskset -c 3 perl anonymous_recursion.perl
+USER=120.21
+SYS=0.02
+REAL=2:00.45
+MEMT=0
+COMMAND=taskset -c 0 perl anonymous_recursion.perl
+USER=122.37
+SYS=0.07
+REAL=2:02.70
+MEMT=0
+COMMAND=taskset -c 1 perl anonymous_recursion.perl
+USER=121.69
+SYS=0.01
+REAL=2:01.94
+MEMT=0
+COMMAND=taskset -c 2 perl anonymous_recursion.perl
+USER=120.04
+SYS=0.02
+REAL=2:00.33
+MEMT=0
+COMMAND=taskset -c 3 perl anonymous_recursion.perl
+USER=121.12
+SYS=0.00
+REAL=2:01.33
+MEMT=0
+COMMAND=taskset -c 0 perl anonymous_recursion.perl
+USER=121.01
+SYS=0.12
+REAL=2:01.41
+MEMT=0
+perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36
+perl : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=666
+BYTES_TOTAL_HEAP_USAGE=674

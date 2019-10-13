@@ -1,15 +1,14 @@
 #!/usr/local/bin/gawk -f
 #* h**************************************************************************#
-# Script awk de fonctions mathematiques
+# Script awk : mathematical functions
 #
 # Author......    : OGA
 # Created.....    : 2003-10-26
-# Modified....    : 2015-01-06
-# Notes.......    : Version 0.2
-# Version GNU awk : 3.1.3
+# Modified....    : 2019-09-29
+# Notes.......    : Version 1.0
+# Version GNU awk : 3+
 #**************************************************************************h *#
 
-# INITIALISATIONS
 BEGIN {
         # http://rosettacode.org/wiki/Real_constants_and_functions
         # Constant of mathematics
@@ -19,8 +18,6 @@ BEGIN {
 	# Awk constant
 	#IFS=" "
       }
-
-# FONCTIONS DEFINIES PAR UTILISATEUR
 
 function dump(what, array,	i) {
 	print what
@@ -73,20 +70,20 @@ function percentile(arr,p,	f,l,r,ddl,lf,n,i) {
 }
 
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne la valeur absolue de x
+# absolute value of x
 function abs(x) {
 	return x < 0 ? -x : x
 }
  
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne l'arrondi de x en valeur basse
+# floor x
 function floor(x) {
 	y = int(x)
 	return y > x ? y - 1 : y
 }
  
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne l'arrondi de x en valeur haute
+# ceil x
 function ceil(x) {
 	y = int(x)
 	return y < x ? y + 1 : y
@@ -184,6 +181,5 @@ function left_factorials(n,	i, sme) {
 	return sme
 }
 
-# ACTIONS POST TRAITEMENT
 END     {
 }

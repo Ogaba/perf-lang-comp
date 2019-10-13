@@ -2,48 +2,49 @@ Compute result of CPU time consumed by different programming languages
 
 Version de tclsh :8.6
 COMMAND=taskset -c 1 tclsh anonymous_recursion.tclsh
-USER=39.46
-SYS=0.01
-REAL=0:39.61
-MEMT=0
-COMMAND=taskset -c 2 tclsh anonymous_recursion.tclsh
-USER=31.25
+USER=35.40
 SYS=0.00
-REAL=0:31.28
+REAL=0:35.42
 MEMT=0
-COMMAND=taskset -c 3 tclsh anonymous_recursion.tclsh
-USER=31.28
-SYS=0.00
-REAL=0:31.30
-MEMT=0
-COMMAND=taskset -c 0 tclsh anonymous_recursion.tclsh
-USER=31.21
-SYS=0.00
-REAL=0:31.22
-MEMT=0
-COMMAND=taskset -c 1 tclsh anonymous_recursion.tclsh
-USER=31.26
-SYS=0.00
-REAL=0:31.28
-MEMT=0
-COMMAND=taskset -c 2 tclsh anonymous_recursion.tclsh
-USER=31.09
-SYS=0.00
-REAL=0:31.11
-MEMT=0
-COMMAND=taskset -c 3 tclsh anonymous_recursion.tclsh
-USER=31.17
-SYS=0.00
-REAL=0:31.20
-MEMT=0
-COMMAND=taskset -c 0 tclsh anonymous_recursion.tclsh
-USER=31.57
-SYS=0.00
-REAL=0:31.58
-MEMT=0
-tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+tclsh : hash output to compare results between langages :
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+987
+1597
+2584
+4181
+6765
+10946
+17711
+28657
+46368
+75025
+121393
+196418
+317811
+514229
+832040
+1346269
+2178309
+3524578
+5702887
+9227465
 HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
 NB_LIGNES=36
-tclsh : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,428
-BYTES_TOTAL_HEAP_USAGE=2,444
+tclsh : memory usage :
+BYTES_IN_USE_AT_EXIT=2,832
+BYTES_TOTAL_HEAP_USAGE=3,360

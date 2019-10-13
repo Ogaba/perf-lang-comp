@@ -23,7 +23,7 @@ left_factorials(i)
 for (i=20;i<111;i=i+10) {
 left_factorials(i)
 }
-for (i=1000;i<2001;i=i+1000) {
+for (i=1000;i<10001;i=i+1000) {
 print "", length(left_factorials(i)), "\n"
 }
 quit

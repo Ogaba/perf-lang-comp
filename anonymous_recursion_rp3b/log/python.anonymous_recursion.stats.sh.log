@@ -1,0 +1,49 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python :Python 2.7.13
+COMMAND=taskset -c 1 echo "" | python anonymous_recursion.python
+USER=468.57
+SYS=0.08
+REAL=7:49.08
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python anonymous_recursion.python
+USER=463.44
+SYS=0.12
+REAL=7:44.16
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python anonymous_recursion.python
+USER=463.91
+SYS=0.02
+REAL=7:44.43
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python anonymous_recursion.python
+USER=461.92
+SYS=0.00
+REAL=7:42.10
+MEMT=0
+COMMAND=taskset -c 1 echo "" | python anonymous_recursion.python
+USER=465.35
+SYS=0.08
+REAL=7:45.84
+MEMT=0
+COMMAND=taskset -c 2 echo "" | python anonymous_recursion.python
+USER=464.48
+SYS=0.08
+REAL=7:45.07
+MEMT=0
+COMMAND=taskset -c 3 echo "" | python anonymous_recursion.python
+USER=463.10
+SYS=0.04
+REAL=7:43.25
+MEMT=0
+COMMAND=taskset -c 0 echo "" | python anonymous_recursion.python
+USER=463.43
+SYS=0.09
+REAL=7:44.08
+MEMT=0
+python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+HASH=c996815d4d30b46af6595083c2305a5552382b8420a8c9e215863ca6b8263c28
+NB_LIGNES=36
+python : consommation mémoire :
+BYTES_IN_USE_AT_EXIT=684
+BYTES_TOTAL_HEAP_USAGE=708

@@ -184,7 +184,6 @@ f_plot_cpu_stacked_histo_LF()
  printf "\nset style fill transparent solid 0.7 border 0.25\n" >> $_TMP
  printf "\nset xtics noenhanced border rotate by -45 offset 0,0" >> $_TMP
  printf "\nplot \"${1}\" u (\\\$6+\\\$9):xtic(2) with boxes lc rgb 'blue' t \"mean_cpu_sys\", \"\" u 6:xtic(2) with boxes lc rgb 'green' t \"mean_cpu_user\"" >> $_TMP
- printf "\nplot \"${1}\" u xtic(2):1:13 w labels rotate by -90 t \"hash\"" >> $_TMP
 }
 
 f_plot_memuse_lines_LF()

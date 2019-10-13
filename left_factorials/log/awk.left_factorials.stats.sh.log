@@ -1,170 +1,45 @@
 Compute result of CPU time consumed by different programming languages
 
-Version de original-awk :20121220
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.14
+Version de awk :GNU Awk 4.1.4, API: 1.1 (GNU MPFR 4.0.1, GNU MP 6.1.2)
+COMMAND=taskset -c 1 awk -f left_factorials.awk < /dev/null
+USER=32.11
 SYS=0.00
-REAL=0:00.14
+REAL=0:32.14
 MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.10
-SYS=0.00
-REAL=0:00.10
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.12
-SYS=0.00
-REAL=0:00.12
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.10
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.12
-SYS=0.00
-REAL=0:00.12
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.10
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.10
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.13
-SYS=0.00
-REAL=0:00.13
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.12
-MEMT=0
-taskset -c 1 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.12
-SYS=0.00
-REAL=0:00.12
-MEMT=0
-taskset -c 2 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.12
-SYS=0.00
-REAL=0:00.12
-MEMT=0
-taskset -c 3 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.11
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-taskset -c 0 echo "" | /usr/bin/original-awk -f left_factorials.awk
-USER=0.10
-SYS=0.00
-REAL=0:00.11
-MEMT=0
-original-awk : hachage de la sortie pour vérifier que les données en sortie sont les memes :
-HASH=b4b286fa5362500fde523fe510b4309e662eb57cadca4437113c8270c3469280
-awk : nombre de lignes passées par la regexp :
-NB_LIGNES=22
-original-awk : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,162
-BYTES_TOTAL_HEAP_USAGE=2,194
+awk : hash output to compare results between langages :
+0
+1
+2
+4
+10
+34
+154
+874
+5914
+46234
+409114
+128425485935180320
+9157958657951074430296323522560
+20935051082417771183486505875677729675024531456
+620960027832821578400463655486800783009386383262609309830217728
+141074930726669592554626339901765334042436088666229826229787854286935423606325248
+173639511802987505322433788734604085794811239127811529658938244970732097106109937741237709332021248
+906089587987695148305329563703049164531330412000984236668181759119393101646335057712763466481822506401397781125136384
+16695570072624201957729546229770050983392165020977031067739700520627786551607861088482812961148357283657410726271374904308431951493070848
+942786239765826090440208780185308988212265925018923633492726838231530663423527957644698031108796043729152777528481329113398137987487468741698789020838920192
+145722981061585228999081110193703959589648187599867757542604287462959385265107391513000904756649904756480381544568410341945099246657232956552282711645394024951195961311245631488
+! 1000 has  3  digits.
+! 2000 has  3  digits.
+! 3000 has  3  digits.
+! 4000 has  3  digits.
+! 5000 has  3  digits.
+! 6000 has  3  digits.
+! 7000 has  3  digits.
+! 8000 has  3  digits.
+! 9000 has  3  digits.
+! 10000 has  3  digits.
+HASH=51b282b3774ee46d5ed1d3e7dd2f8c1a0382f8464e7d9911d2e1b89057cdb3bb
+NB_LIGNES=31
+awk : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=3,400

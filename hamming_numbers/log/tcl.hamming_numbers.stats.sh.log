@@ -2,48 +2,35 @@ Compute result of CPU time consumed by different programming languages
 
 Version de tclsh :8.6
 COMMAND=taskset -c 1 tclsh hamming_numbers.tclsh
-USER=2.55
-SYS=0.06
-REAL=0:02.61
-MEMT=0
-COMMAND=taskset -c 2 tclsh hamming_numbers.tclsh
-USER=2.58
+USER=3.21
 SYS=0.07
-REAL=0:02.65
+REAL=0:03.29
 MEMT=0
-COMMAND=taskset -c 3 tclsh hamming_numbers.tclsh
-USER=2.55
-SYS=0.07
-REAL=0:02.62
-MEMT=0
-COMMAND=taskset -c 0 tclsh hamming_numbers.tclsh
-USER=2.52
-SYS=0.06
-REAL=0:02.58
-MEMT=0
-COMMAND=taskset -c 1 tclsh hamming_numbers.tclsh
-USER=2.53
-SYS=0.04
-REAL=0:02.58
-MEMT=0
-COMMAND=taskset -c 2 tclsh hamming_numbers.tclsh
-USER=2.51
-SYS=0.05
-REAL=0:02.56
-MEMT=0
-COMMAND=taskset -c 3 tclsh hamming_numbers.tclsh
-USER=2.51
-SYS=0.05
-REAL=0:02.58
-MEMT=0
-COMMAND=taskset -c 0 tclsh hamming_numbers.tclsh
-USER=2.56
-SYS=0.04
-REAL=0:02.61
-MEMT=0
-tclsh : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+tclsh : hash output to compare results between langages :
+1
+2
+3
+4
+5
+6
+8
+9
+10
+12
+15
+16
+18
+20
+24
+25
+27
+30
+32
+36
+2125764000
+519312780448388736089589843750000000000000000000000000000000000000000000000000000000
 HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
 NB_LIGNES=22
-tclsh : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,600
-BYTES_TOTAL_HEAP_USAGE=2,616
+tclsh : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=2,840

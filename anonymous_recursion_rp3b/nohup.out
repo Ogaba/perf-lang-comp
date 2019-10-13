@@ -1,0 +1,110 @@
+Génération des stats de kotlin.sh.
+Génération des stats de o.sh.
+Génération des stats de perl.sh.
+Génération des stats de python.sh.
+Génération des stats de tcl.sh.
+Génération des fichiers XML de kotlin.
+Génération des fichiers XML de o.
+Génération des fichiers XML de perl.
+Génération des fichiers XML de python.
+Génération des fichiers XML de tcl.
+Génération des fichiers XML de kotlin.
+Génération des fichiers XML de o.
+Génération des fichiers XML de perl.
+Génération des fichiers XML de python.
+Génération des fichiers XML de tcl.
+Génération des fichiers GNUPLOT de kotlin.
+Génération des fichiers GNUPLOT de o.
+Génération des fichiers GNUPLOT de perl.
+Génération des fichiers GNUPLOT de python.
+Génération des fichiers GNUPLOT de tcl.
+Begining ./gnuplot.sh
+ generating anonymous_recursion.stats.gp.png ...
+./gnuplot.sh: ligne 82: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 24: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 25: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 26: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 27: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 28: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 61: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 50: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 45: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 86: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 87: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 88: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 89: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 81: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 66: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 38: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 170: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 178: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 94: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 99: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 183: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 184: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 185: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 186: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 187: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+fonctions.sh: ligne 33: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+chmod: impossible d'accéder à '/home/pi/tmp/./gnuplot.sh.tmp.26138': Aucun fichier ou dossier de ce type
+./gnuplot.sh: ligne 88: /home/pi/tmp/./gnuplot.sh.tmp.26138: Aucun fichier ou dossier de ce type
+Ending ./gnuplot.sh
+Génération des stats de kotlin.sh.
+Génération des stats de o.sh.
+Génération des stats de perl.sh.
+Génération des stats de python.sh.
+Génération des stats de tcl.sh.
+Génération des fichiers XML de kotlin.
+Génération des fichiers XML de o.
+Génération des fichiers XML de perl.
+Génération des fichiers XML de python.
+Génération des fichiers XML de tcl.
+Génération des fichiers XML de kotlin.
+Génération des fichiers XML de o.
+Génération des fichiers XML de perl.
+Génération des fichiers XML de python.
+Génération des fichiers XML de tcl.
+Génération des fichiers GNUPLOT de kotlin.
+Génération des fichiers GNUPLOT de o.
+Génération des fichiers GNUPLOT de perl.
+Génération des fichiers GNUPLOT de python.
+Génération des fichiers GNUPLOT de tcl.
+Begining ./gnuplot.sh
+ generating anonymous_recursion.stats.gp.png ...
+         line 0: Not enough columns for this style
+
+gnuplot<<EOF
+set encoding utf8
+set terminal png size 3600,2400 128 48
+set pointsize 10
+set border linewidth 1.5
+set style line 1 lc rgb 'red' pt 7
+set style line 2 lc rgb 'yellow' pt 7
+set style line 3 lc rgb 'green' pt 7
+set style line 4 lc rgb 'black' pt 7
+set style line 5 lc rgb 'blue' pt 7
+set style line 6 lc rgb 'orange' pt 7
+set lmargin at screen 0.2
+set rmargin at screen 0.8
+set bmargin at screen 0.3
+set tmargin at screen 0.7
+set key noenhanced
+set boxwidth "0.5"
+set title noenhanced "2019-09-10 : anonymous_recursion"
+
+set xlabel "algorithm langage"
+set ylabel "CPU user+sys time stacked (sec.)"
+set xrange [ -0.5 : * ]
+set yrange [ 0 : * ]
+set key top left outside horizontal autotitle columnhead
+set style fill transparent solid 0.7 border 0.25
+
+set xtics noenhanced border rotate by -45 offset 0,0
+plot "anonymous_recursion.stats.gp" u (\$6+\$9):xtic(2) with boxes lc rgb 'blue' t "mean_cpu_sys", "" u 6:xtic(2) with boxes lc rgb 'green' t "mean_cpu_user"
+plot "anonymous_recursion.stats.gp" u xtic(2):1:13 w labels rotate by -90 t "hash"
+EOFEnding ./gnuplot.sh

@@ -1,14 +1,36 @@
 Compute result of CPU time consumed by different programming languages
 
 Version de original-awk :20121220
-taskset -c 0 echo "" | original-awk -f left_factorials.original-awk
-USER=0.12
+COMMAND=taskset -c 1 echo "" | original-awk -f left_factorials.original-awk
+USER=0.10
 SYS=0.00
-REAL=0:00.12
+REAL=0:00.10
 MEMT=0
-original-awk : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+original-awk : hash output to compare results between langages :
+0
+1
+2
+4
+10
+34
+154
+874
+5914
+46234
+409114
+128425485935180320
+9,15795865795107443029632352256e+30
+2,09350510824177711834865058757e+46
+6,20960027832821578400463655487e+62
+1,41074930726669592554626339902e+80
+1,73639511802987505322433788735e+98
+9,06089587987695148305329563703e+116
+1,66955700726242019577295462298e+136
+9,42786239765826090440208780185e+155
+1,45722981061585228999081110194e+176
+! 1000 has  3  digits.
 HASH=b4b286fa5362500fde523fe510b4309e662eb57cadca4437113c8270c3469280
 NB_LIGNES=22
-original-awk : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,546
-BYTES_TOTAL_HEAP_USAGE=2,578
+original-awk : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=3,368

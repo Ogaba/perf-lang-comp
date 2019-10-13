@@ -1,0 +1,14 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de ruby :ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
+COMMAND=taskset -c 1 ruby anonymous_recursion.ruby
+USER=0.06
+SYS=0.00
+REAL=0:00.06
+MEMT=0
+ruby : hash output to compare results between langages :
+HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+NB_LIGNES=0
+ruby : memory usage :
+BYTES_IN_USE_AT_EXIT=2,832
+BYTES_TOTAL_HEAP_USAGE=3,360

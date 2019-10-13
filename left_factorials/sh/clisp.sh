@@ -21,7 +21,7 @@ for ((_C = 1; _C <= $2; _C++)); do
 	f_for $PRG_LANG $1 $_C
 done
 
-eval "$_COMMAND" > ~/tmp/$$.tmp
+eval "$_COMMAND" | tr -d '()' | sed 's/ /\n/g' > ~/tmp/$$.tmp
 
 f_hash $PRG_LANG
 

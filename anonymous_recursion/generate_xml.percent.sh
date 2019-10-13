@@ -4,7 +4,7 @@
 #
 # Author........... : OGA
 # Created.......... : 2015-11-03
-# Modified......... : 2017-12-26
+# Modified......... : 2019-09-29
 # Notes............ : keep it as simple as possible
 #**************************************************************************h *#
 function gen_xml() {
@@ -20,7 +20,7 @@ function gen_xml2() {
 		-v xsl_file="compare_percent.xsl" -f awk/begin.awk\
 		> xml/${1}.percent.sh.log.xml
  for PRG_LANG in $2; do
-	echo "Génération des fichiers XML de $PRG_LANG."
+	echo " XML file generation (percents print) for $PRG_LANG."
 	gen_xml $1 "$PRG_LANG"
  done
  cat log/${1}.stats.sh.log.2 | gawk -f awk/xml.awk -f awk/end.awk >> xml/${1}.percent.sh.log.xml

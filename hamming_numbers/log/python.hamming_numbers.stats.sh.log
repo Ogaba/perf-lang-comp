@@ -1,49 +1,36 @@
 Compute result of CPU time consumed by different programming languages
 
-Version de python :Python 2.7.15rc1
+Version de python :Python 2.7.15+
 COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
-USER=0.34
-SYS=0.00
-REAL=0:00.34
-MEMT=0
-COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
-USER=0.33
-SYS=0.00
-REAL=0:00.34
-MEMT=0
-COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
-USER=0.37
-SYS=0.00
+USER=0.36
+SYS=0.01
 REAL=0:00.37
 MEMT=0
-COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
-USER=0.32
-SYS=0.01
-REAL=0:00.33
-MEMT=0
-COMMAND=taskset -c 1 echo "" | python hamming_numbers.python
-USER=0.34
-SYS=0.00
-REAL=0:00.34
-MEMT=0
-COMMAND=taskset -c 2 echo "" | python hamming_numbers.python
-USER=0.32
-SYS=0.00
-REAL=0:00.32
-MEMT=0
-COMMAND=taskset -c 3 echo "" | python hamming_numbers.python
-USER=0.33
-SYS=0.00
-REAL=0:00.33
-MEMT=0
-COMMAND=taskset -c 0 echo "" | python hamming_numbers.python
-USER=0.31
-SYS=0.00
-REAL=0:00.32
-MEMT=0
-python : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
+python : hash output to compare results between langages :
+1
+2
+3
+4
+5
+6
+8
+9
+10
+12
+15
+16
+18
+20
+24
+25
+27
+30
+32
+36
+2125764000
+519312780448388736089589843750000000000000000000000000000000000000000000000000000000
 HASH=40f87d4802f51a29a086efe42723f9a4a89691e05c8b99a272a3cad48102bf03
 NB_LIGNES=22
-python : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,630
-BYTES_TOTAL_HEAP_USAGE=2,662
+python : memory usage :
+BYTES_IN_USE_AT_EXIT=2,854
+BYTES_TOTAL_HEAP_USAGE=2,886

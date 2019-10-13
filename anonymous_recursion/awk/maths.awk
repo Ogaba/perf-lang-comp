@@ -1,15 +1,14 @@
 #!/usr/local/bin/gawk -f
 #* h**************************************************************************#
-# Script awk de fonctions mathematiques
+# Script awk : mathematical functions
 #
 # Author......    : OGA
 # Created.....    : 2003-10-26
-# Modified....    : 2015-01-06
-# Notes.......    : Version 0.2
-# Version GNU awk : 3.1.3
+# Modified....    : 2019-09-29
+# Notes.......    : Version 1.0
+# Version GNU awk : 3+
 #**************************************************************************h *#
 
-# INITIALISATIONS
 BEGIN {
         # http://rosettacode.org/wiki/Real_constants_and_functions
         # Constant of mathematics
@@ -19,8 +18,6 @@ BEGIN {
 	# Awk constant
 	#IFS=" "
       }
-
-# FONCTIONS DEFINIES PAR UTILISATEUR
 
 function dump(what, array,	i) {
 	print what
@@ -72,32 +69,21 @@ function percentile(arr,p,	f,l,r,ddl,lf,n,i) {
 	return arr[l]+ddl*(arr[r]-arr[l])
 }
 
-function tand(x,		i)
-{
-	i=x*PI/180
-	return x == PI/2 ? ERROR : sin(i)/cos(i)
-}
-
-function log_10(x)
-{
-	return 0.301029995664*log(x)/0.69314718056
-}
-
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne la valeur absolue de x
+# absolute value of x
 function abs(x) {
 	return x < 0 ? -x : x
 }
  
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne l'arrondi de x en valeur basse
+# floor x
 function floor(x) {
 	y = int(x)
 	return y > x ? y - 1 : y
 }
  
 # http://rosettacode.org/wiki/Real_constants_and_functions
-# Retourne l'arrondi de x en valeur haute
+# ceil x
 function ceil(x) {
 	y = int(x)
 	return y < x ? y + 1 : y
@@ -105,7 +91,7 @@ function ceil(x) {
 
 # Retourne le min de a ou de b
 function min(a, b) {
-        return a <= b ? a : b
+	return a <= b ? a : b
 }
 
 # Retourne le max de a ou de b
@@ -145,17 +131,6 @@ function zeta(s,		i, sme) {
 	for (i = 1; i <= 100000; i++)
 		sme = sme + 1 / (i ^ s)
 	return sme
-}
-
-# Function to test randomness with noise_sphere function
-function noise_sphere(x,	noise_,teta_,phi_,r_) {
-	# Noise sphere function
-	# Wolfram MathWorld
-	teta_ = 2 * PI * rand()
-	phi_ = PI * rand()
-	r_ = sqrt(rand())
-	noise_ = teta_ " " phi_ " " r_
-	split(noise_,ns," ")
 }
 
 # Fonction factorielle (ne prend pas en compte les nombres négatifs)
@@ -206,8 +181,5 @@ function left_factorials(n,	i, sme) {
 	return sme
 }
 
-# POUR CHAQUE LIGNE DU FICHIER EN ENTREE FAIRE
-
-# ACTIONS POST TRAITEMENT
-END	{
+END     {
 }

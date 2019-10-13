@@ -1,19 +1,17 @@
 #!/usr/local/bin/gawk -f
 #* h**************************************************************************#
-# Script gawk : Mise en forme balises XML
+# Script gawk : XML formatting functions
 #
 # Author........... : OGA
 # Created.......... : 2004-11-03
-# Modified......... :
+# Modified......... : 2019-09-29
 # Notes............ : Version 1.0
-# Version GNU awk.. : 3.1.5
+# Version GNU awk.. : 3+
 #**************************************************************************h *#
 
-# INITIALISATIONS
 BEGIN	{
 }
 
-# FONCTIONS DEFINIES PAR UTILISATEUR
 function odd(x)  {return x % 2}
 
 function even(x) {return ! odd(x)}
@@ -42,8 +40,5 @@ function xml_bottom(log_names,most_hash) {
 	return sprintf ("<LOG_NAMES>%s</LOG_NAMES>\n<MOST_PROBABLE_CORRECT_HASH>%s</MOST_PROBABLE_CORRECT_HASH>\n%s\n%s",log_names,most_hash,"</ROWSET>","</body>")
 }
 
-# POUR CHAQUE LIGNE DU FICHIER EN ENTREE FAIRE
-
-# ACTIONS POST TRAITEMENT
 END	{
 }

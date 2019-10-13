@@ -1,49 +1,18 @@
 Compute result of CPU time consumed by different programming languages
 
-Version de perl :This is perl 5, version 26, subversion 0 (v5.26.0) built for x86_64-linux-gnu-thread-multi
+Version de perl :This is perl 5, version 26, subversion 1 (v5.26.1) built for x86_64-linux-gnu-thread-multi
+f_for perl lychrel_numbers 1
 COMMAND=taskset -c 1 perl lychrel_numbers.perl
-USER=7.59
-SYS=0.01
-REAL=0:07.60
-MEMT=0
-COMMAND=taskset -c 2 perl lychrel_numbers.perl
-USER=7.65
+USER=8.25
 SYS=0.00
-REAL=0:07.65
+REAL=0:16.57
 MEMT=0
-COMMAND=taskset -c 3 perl lychrel_numbers.perl
-USER=7.63
-SYS=0.00
-REAL=0:07.63
-MEMT=0
-COMMAND=taskset -c 0 perl lychrel_numbers.perl
-USER=7.57
-SYS=0.00
-REAL=0:07.58
-MEMT=0
-COMMAND=taskset -c 1 perl lychrel_numbers.perl
-USER=7.68
-SYS=0.00
-REAL=0:07.69
-MEMT=0
-COMMAND=taskset -c 2 perl lychrel_numbers.perl
-USER=7.62
-SYS=0.01
-REAL=0:07.64
-MEMT=0
-COMMAND=taskset -c 3 perl lychrel_numbers.perl
-USER=7.67
-SYS=0.00
-REAL=0:07.68
-MEMT=0
-COMMAND=taskset -c 0 perl lychrel_numbers.perl
-USER=7.69
-SYS=0.01
-REAL=0:07.71
-MEMT=0
-perl : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :
-HASH=5f426e106ce024f38c20d825518a32db31ba971667c68bf465d8f97b14b64c3b
-NB_LIGNES=4
-perl : consommation mémoire :
-BYTES_IN_USE_AT_EXIT=2,420
-BYTES_TOTAL_HEAP_USAGE=2,436
+perl : hash output to compare results between langages :
+196, 879, 1997, 7059, 9999
+244
+4994, 8778, 9999
+HASH=69b6114cc9073d4b545680824c58b8025ec69679f89756026470f428d1ce91e0
+NB_LIGNES=3
+perl : memory usage :
+BYTES_IN_USE_AT_EXIT=2,824
+BYTES_TOTAL_HEAP_USAGE=2,840

@@ -1,0 +1,7 @@
+from functools import partial
+Y = lambda f: (lambda x: x(x))(lambda y: partial(f, lambda *args: y(y)(*args)))
+fib = lambda f, n: None if n < 0 else (0 if n == 0 else (1 if n == 1 else f(n-1) + f(n-2)))
+i = 0
+while i <= 35:
+	print Y(fib)(i) 
+	i+=1

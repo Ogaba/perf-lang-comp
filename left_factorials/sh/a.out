@@ -1,1 +1,1 @@
-taskset -c 0 bc left_factorials.bc
+taskset -c 1 tclsh left_factorials.tclsh

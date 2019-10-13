@@ -1,17 +1,15 @@
 #!/usr/local/bin/gawk -f
 #* h**************************************************************************#
-# Script regex.awk  : EXPRESSIONS REGULIERES GAWK UTILES
+# Script awk  : regular usefull expressions
 #
 # Author........... : OGA
 # Created.......... : 2004-10-12
-# Modified......... : 2016-09-27
+# Modified......... : 2019-09-29
 # Notes............ : Version 1.1
 # Version GNU awk.. : 3+
 #**************************************************************************h *#
 
-# INITIALISATIONS
 BEGIN {
-# EXPRESSIONS REGULIERES UTILES
 	_g_regexp_espaces_debut_ligne="^[[:space:]]+";			# tout espace en debut de ligne
 	_g_regexp_espaces_fin_ligne="[[:space:]]+$";			# tout espace en fin de ligne
 	#_g_regexp_nombre_decimal="^.?([[:digit:]]+(\\.[[:digit:]]*)?|\\.[[:digit:]]+)$";
@@ -22,10 +20,5 @@ BEGIN {
 	_g_regexp_tnsnames_ora="=\\(.+\\([^(]+\\([^(]+(\\([^)]+\\)){3}\\)\\)\\([^(]+\\([^)]+(\\)){3}"; # structure tnsnames.ora correcte SUR 1 LIGNE
 }
 
-# FONCTIONS DEFINIES PAR UTILISATEUR
-
-# POUR CHAQUE LIGNE DU FICHIER EN ENTREE FAIRE
-
-# ACTIONS POST TRAITEMENT
 END {
 }

@@ -19,7 +19,7 @@ print left_factorials(i)
 for (i=20;i<111;i=i+10) {
 print left_factorials(i)
 }
-for (i=1000;i<1001;i=i+1000) {
+for (i=1000;i<10001;i=i+1000) {
 print "!",i ,"has ", length(left_factorials(i)), " digits."
 }
 }

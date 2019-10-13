@@ -21,14 +21,9 @@ for (my $n=1; $n<=$n_max; $n++) {
         @seq_dump = set_union(\@seq_dump, \@seq);
     }
 }
-print "Number of seed Lychrels <= $n_max: ", scalar(@seed_lychrels), "\n";
-print "Seed Lychrels <= $n_max: ", join(q{, }, @seed_lychrels), "\n";
-print "Number of related Lychrels <= $n_max: ", scalar(@related_lychrels), "\n";
-print "Palindromes among seed and related <= $n_max: ",
-      join(q{, },
-           sort {$a <=> $b}
-                grep {is_palindrome($ARG)} (@seed_lychrels, @related_lychrels)),
-      "\n";
+print join(q{, }, @seed_lychrels), "\n";
+print scalar(@related_lychrels), "\n";
+print join(q{, }, sort {$a <=> $b} grep {is_palindrome($ARG)} (@seed_lychrels, @related_lychrels)), "\n";
 exit 0;
  
 sub lychrel_sequence {

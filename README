@@ -46,7 +46,8 @@ The software is given as it is, and there is no garanty to work on your system.
 Use it as your own safe.
 
 PRE REQUISITES :
-You have to install bash, time (yes time package, not using the one embedded in bash) and optionnaly valgrind (for memory usage comparison).
+You have to install bash, time (yes time package, not using the time embedded in bash) and optionnaly valgrind (for memory usage comparison).
+Also libgmp-dev has to be installed for gcc compilation
 And of course all the languages you want to compare !
 
 Don't forget to include paths of various compiler, specially for Java ones (like kotlin).
