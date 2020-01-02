@@ -15,7 +15,7 @@ function get_most_probable_correct_hash() {
 	cut -d'=' -f2 |		# select 2nd field of grep output, aka the value of HASH,
 	sort |			# perform a sort on all the values, it is mandatory for the
 	uniq -c |		# count of how many time values are present,
-	sort -n -k1 |		# now do a numeric sort on the resulted counts
+	sort -g -k1 |		# now do a general numeric sort on the resulted counts
 	tail -n 1 |		# to keep only the highest count of sorted values.
 	rev |			# And then, that's the trick part : we reverse
 	cut -d' ' -f1 |		# to only select the value from the begining of the line now.
