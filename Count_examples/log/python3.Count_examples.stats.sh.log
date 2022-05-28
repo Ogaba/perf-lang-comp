@@ -1,0 +1,74 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de python3 :Python 3.10.4
+COMMAND=taskset -c 1 echo "" | python3 Count_examples.python3
+Traceback (most recent call last):
+  File "/mnt/ENCRYPTED/Langages/perf-lang-comp/Count_examples/sh/Count_examples.python3", line 14, in <module>
+    y = urlopen(r)
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+Command exited with non-zero status 1
+USER=0.47
+SYS=0.13
+REAL=0:20.02
+MEMT=0
+Traceback (most recent call last):
+  File "/mnt/ENCRYPTED/Langages/perf-lang-comp/Count_examples/sh/Count_examples.python3", line 14, in <module>
+    y = urlopen(r)
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+python3 : hash output to compare results between langages :
+100 doors: 338 examples.
+100 prisoners: 76 examples.
+15 puzzle game: 78 examples.
+15 puzzle solver: 25 examples.
+2048: 63 examples.
+21 game: 46 examples.
+24 game: 106 examples.
+24 game/Solve: 68 examples.
+4-rings or 4-squares puzzle: 61 examples.
+9 billion names of God the integer: 63 examples.
+99 bottles of beer: 374 examples.
+HASH=1a53ea75c51d850b5bcc31edd16faa202834e7e563e6eacddd284c06ee730113
+NB_LIGNES=11
+Traceback (most recent call last):
+  File "/mnt/ENCRYPTED/Langages/perf-lang-comp/Count_examples/sh/Count_examples.python3", line 14, in <module>
+    y = urlopen(r)
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/usr/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+python3 : memory usage :
+BYTES_IN_USE_AT_EXIT=2,004
+BYTES_TOTAL_HEAP_USAGE=2,036

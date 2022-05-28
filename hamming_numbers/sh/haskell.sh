@@ -25,7 +25,6 @@ done
 
 # Run only once to hash outputs and calculate memory usage
 	# delete [], transform , to space, and sort numbers on each line
-	#eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | perl -ape '@F=sort @F;$_="@F\n"' > ~/tmp/$$.tmp
 	eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | f_sort_each_line_of_a_file > ~/tmp/$$.tmp
 	f_hash $PRG_LANG
 	f_valgrind $PRG_LANG

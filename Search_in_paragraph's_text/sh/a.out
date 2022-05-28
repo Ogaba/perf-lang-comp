@@ -1,0 +1,1 @@
+taskset -c 1 echo "" | python3 Search_in_paragraph_text.python3

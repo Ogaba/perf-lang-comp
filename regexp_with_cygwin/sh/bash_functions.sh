@@ -1,10 +1,10 @@
 #!/bin/bash
 #* h**************************************************************************#
-# Generic bash functions
+# Generic bash functions for perf-lang-comp in cygwin
 #
 # Author........... : OGA
 # Created.......... : 2017-10-03
-# Modified......... :
+# Modified......... : 2022-05-18
 # Notes............ : keep it as simple as possible
 #**************************************************************************h *#
 
@@ -23,6 +23,11 @@ function get_most_probable_correct_hash() {
 # and YES I love coreutils and util-linux !
 }
 
+f_sort_each_line_of_a_file() {
+	# perl syntax to sort numericaly and asc
+	perl -ape '@F=sort{$a<=>$b}@F;$_="@F\n"'
+}
+
 f_header() {
 	echo "Compute result of CPU time consumed by different programming languages"
 	echo ""
@@ -37,49 +42,78 @@ f_for() {
 	if [ "$1" == "" ]; then
 		_COMMAND="${2}"
 	else
-		_COMMAND="$1 ${2}.${1} ${4}"
+		_COMMAND="$1 ${2}.${1} \"${4}\""
 	fi
 	f_for_bottom
 }
 
 f_for2() {
-        # $1 : program langage name
-        # $2 : activity to mesure
-        # $3 : number of iterations
-        f_for_header $3
-        _COMMAND="$1 -f ${2}.${1}"
-        f_for_bottom
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
+	f_for_header $3
+	_COMMAND="$1 -f ${2}.${1}"
+	f_for_bottom
 }
 
 f_for2_on_file() {
-        # $1 : program langage name
-        # $2 : activity to mesure
-        # $3 : number of iterations
-        # $4 : file name
-        f_for_header $3
-        _COMMAND="$1 -f ${2}.${1} \"${4}\""
-        f_for_bottom
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
+	# $4 : file name
+	f_for_header $3
+	_COMMAND="$1 -f ${2}.${1} \"${4}\""
+	f_for_bottom
+}
+
+f_for3() {
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
+	f_for_header $3
+	_COMMAND="$1 -f ${2}.${1} < /dev/null"
+	f_for_bottom
 }
 
 f_for_kotlin() {
-        # $1 : program langage name
-        # $2 : activity to mesure
-        # $3 : number of iterations
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
 	# $4 : file name
 	# first compile, example : kotlinc lychrel_numbers.kt, gave Lychrel_numbersKt.class
-        f_for_header $3
-        _COMMAND="$1 ${2^}Kt ${4}"
-        f_for_bottom
+	f_for_header $3
+	_COMMAND="$1 ${2^}Kt \"${4}\""
+	f_for_bottom
+}
+
+f_for_jq() {
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : data file to be processed
+	# $4 : number of iterations
+	f_for_header $4
+	_COMMAND="$1 -rRs -f ${2}.${1} $3"
+	f_for_bottom
+}
+
+f_for_haskell() {
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
+	# $4 : file name
+	f_for_header $3
+	_COMMAND="/usr/local/bin/stack run${1} ${2}.hk \"${4}\""
+	f_for_bottom
 }
 
 f_for_pipe() {
-        # $1 : program langage name
-        # $2 : activity to mesure
-        # $3 : number of iterations
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
 	# $4 : file name
-        f_for_header $3
-        _COMMAND="echo \"\" | $1 ${2}.${1} ${4}"
-        f_for_bottom
+	f_for_header $3
+	_COMMAND="echo \"\" | $1 ${2}.${1} \"${4}\""
+	f_for_bottom
 }
 
 f_for_pipe_2() {
@@ -88,7 +122,7 @@ f_for_pipe_2() {
 	# $3 : number of iterations
 	# $4 : file name
 	f_for_header $3
-	_COMMAND="echo \"\" | $1 -f ${2}.${1} ${4}"
+	_COMMAND="echo \"\" | $1 -f ${2}.${1} \"${4}\""
 	f_for_bottom
 }
 
@@ -99,7 +133,7 @@ f_for_pipe_with_option() {
 	# $4 : number of iterations
 	# $5 : file name
 	f_for_header $4
-	_COMMAND="echo \"\" | $1 "$2" -f ${3}.${1} ${5}"
+	_COMMAND="echo \"\" | $1 "$2" -f ${3}.${1} \"${5}\""
 	f_for_bottom
 }
 
@@ -123,10 +157,11 @@ f_eval_command_bc() {
 f_hash() {
 	# $1 : program langage name
 	if [ "$1" == "" ]; then
-		echo "c compiled : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :"
+		echo "c compiled : hash output to compare results between langages :"
 	else
-		echo "$1 : hachage de la sortie pour vérifier que les données en sortie sont les mêmes :"
+		echo "$1 : hash output to compare results between langages :"
 	fi
+	[[ $_DEBUG -eq 1 ]] && cat ~/tmp/$$.tmp
 	echo -n "HASH="
 	shasum -a 256 ~/tmp/$$.tmp | cut -d' ' -f1
 	echo -n "NB_LIGNES="

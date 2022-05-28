@@ -4,7 +4,7 @@
 #
 # Author........... : OGA
 # Created.......... : 2017-10-03
-# Modified......... : 2019-09-29
+# Modified......... : 2022-05-18
 # Notes............ : keep it as simple as possible
 #**************************************************************************h *#
 
@@ -84,6 +84,16 @@ f_for_kotlin() {
 	f_for_bottom
 }
 
+f_for_jq() {
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : data file to be processed
+	# $4 : number of iterations
+	f_for_header $4
+	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} $3"
+	f_for_bottom
+}
+
 f_for_haskell() {
 	# $1 : program langage name
 	# $2 : activity to mesure
@@ -116,7 +126,7 @@ f_for_pipe_with_option() {
 	# $2 : option for program
 	# $3 : activity to mesure
 	# $4 : number of iterations
-	f_for_header \"$4\"
+	f_for_header $4
 	_COMMAND="$TASKSET echo \"\" | $1 "$2" -f ${3}.${1}"
 	f_for_bottom
 }

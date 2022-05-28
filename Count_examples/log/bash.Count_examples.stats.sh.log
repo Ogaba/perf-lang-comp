@@ -1,0 +1,516 @@
+Compute result of CPU time consumed by different programming languages
+
+Version de bash :GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+COMMAND=taskset -c 1 bash Count_examples.bash
+USER=43.95
+SYS=7.81
+REAL=11:11.32
+MEMT=0
+bash : hash output to compare results between langages :
+100 doors: 335 examples.
+100 prisoners: 74 examples.
+15 puzzle game: 77 examples.
+15 puzzle solver: 25 examples.
+2048: 62 examples.
+21 game: 44 examples.
+24 game: 103 examples.
+24 game/Solve: 66 examples.
+4-rings or 4-squares puzzle: 60 examples.
+9 billion names of God the integer: 62 examples.
+99 bottles of beer: 372 examples.
+A+B: 0 examples.
+Abbreviations, automatic: 53 examples.
+Abbreviations, easy: 49 examples.
+Abbreviations, simple: 41 examples.
+ABC problem: 138 examples.
+Abelian sandpile model: 30 examples.
+Abelian sandpile model/Identity: 25 examples.
+Abstract type: 93 examples.
+Abundant odd numbers: 68 examples.
+Abundant, deficient and perfect number classifications: 104 examples.
+Accumulator factory: 112 examples.
+Achilles numbers: 11 examples.
+Ackermann function: 240 examples.
+Active Directory/Connect: 29 examples.
+Active Directory/Search for a user: 24 examples.
+Active object: 48 examples.
+Add a variable to a class instance at runtime: 61 examples.
+Additive primes: 65 examples.
+Address of a variable: 87 examples.
+AKS test for primes: 75 examples.
+Align columns: 122 examples.
+Aliquot sequence classifications: 46 examples.
+Almkvist-Giullera formula for pi: 28 examples.
+Almost prime: 98 examples.
+Amb: 70 examples.
+Amicable pairs: 105 examples.
+Anagrams: 125 examples.
+Anagrams/Deranged anagrams: 79 examples.
+Angle difference between two bearings: 71 examples.
+Angles (geometric), normalization and conversion: 33 examples.
+Animate a pendulum: 71 examples.
+Animation: 78 examples.
+Anonymous recursion: 111 examples.
+Anti-primes: 87 examples.
+Append a record to the end of a text file: 50 examples.
+Apply a callback to an array: 173 examples.
+Apply a digital filter (direct form II transposed): 37 examples.
+Approximate equality: 45 examples.
+Arbitrary-precision integers (included): 99 examples.
+Archimedean spiral: 68 examples.
+Arena storage pool: 31 examples.
+Arithmetic evaluation: 63 examples.
+Arithmetic-geometric mean: 116 examples.
+Arithmetic-geometric mean/Calculate Pi: 36 examples.
+Arithmetic/Complex: 113 examples.
+Arithmetic/Integer: 214 examples.
+Arithmetic/Rational: 71 examples.
+Array concatenation: 204 examples.
+Array length: 181 examples.
+Arrays: 239 examples.
+Ascending primes: 17 examples.
+ASCII art diagram converter: 26 examples.
+Assertions: 120 examples.
+Associative array/Creation: 156 examples.
+Associative array/Iteration: 124 examples.
+Associative array/Merging: 54 examples.
+Atomic updates: 44 examples.
+Attractive numbers: 72 examples.
+Average loop length: 49 examples.
+Averages/Arithmetic mean: 193 examples.
+Averages/Mean angle: 76 examples.
+Averages/Mean time of day: 63 examples.
+Averages/Median: 122 examples.
+Averages/Mode: 95 examples.
+Averages/Pythagorean means: 109 examples.
+Averages/Root mean square: 128 examples.
+Averages/Simple moving average: 92 examples.
+AVL tree: 35 examples.
+Babbage problem: 125 examples.
+Balanced brackets: 136 examples.
+Balanced ternary: 43 examples.
+Barnsley fern: 73 examples.
+Base64 decode data: 59 examples.
+Bell numbers: 52 examples.
+Benford's law: 73 examples.
+Bernoulli numbers: 57 examples.
+Best shuffle: 67 examples.
+Bin given limits: 33 examples.
+Binary digits: 188 examples.
+Binary search: 136 examples.
+Binary strings: 70 examples.
+Bioinformatics/base count: 44 examples.
+Bioinformatics/Sequence mutation: 28 examples.
+Biorhythms: 26 examples.
+Bitcoin/address validation: 34 examples.
+Bitcoin/public point to address: 22 examples.
+Bitmap: 83 examples.
+Bitmap/Bresenham's line algorithm: 72 examples.
+Bitmap/Bézier curves/Cubic: 37 examples.
+Bitmap/Bézier curves/Quadratic: 33 examples.
+Bitmap/Flood fill: 49 examples.
+Bitmap/Histogram: 34 examples.
+Bitmap/Midpoint circle algorithm: 44 examples.
+Bitmap/PPM conversion through a pipe: 17 examples.
+Bitmap/Read a PPM file: 47 examples.
+Bitmap/Read an image through a pipe: 19 examples.
+Bitmap/Write a PPM file: 60 examples.
+Bitwise IO: 40 examples.
+Bitwise operations: 147 examples.
+Boolean values: 195 examples.
+Box the compass: 84 examples.
+Brace expansion: 42 examples.
+Brazilian numbers: 44 examples.
+Break OO privacy: 39 examples.
+Brilliant numbers: 13 examples.
+Brownian tree: 62 examples.
+Bulls and cows: 111 examples.
+Bulls and cows/Player: 46 examples.
+Burrows–Wheeler transform: 33 examples.
+Caesar cipher: 155 examples.
+Calculating the value of e: 101 examples.
+Calendar: 76 examples.
+Calendar - for "REAL" programmers: 42 examples.
+Calkin-Wilf sequence: 31 examples.
+Call a foreign-language function: 74 examples.
+Call a function: 112 examples.
+Call a function in a shared library: 56 examples.
+Call an object method: 78 examples.
+Canny edge detector: 17 examples.
+Canonicalize CIDR: 23 examples.
+Cantor set: 56 examples.
+Carmichael 3 strong pseudoprimes: 45 examples.
+Cartesian product of two or more lists: 63 examples.
+Case-sensitivity of identifiers: 122 examples.
+Casting out nines: 45 examples.
+Catalan numbers: 116 examples.
+Catalan numbers/Pascal's triangle: 71 examples.
+Catamorphism: 90 examples.
+Catmull–Clark subdivision surface: 12 examples.
+Chaocipher: 35 examples.
+Chaos game: 63 examples.
+Character codes: 184 examples.
+Chat server: 33 examples.
+Check input device is a terminal: 34 examples.
+Check Machin-like formulas: 31 examples.
+Check output device is a terminal: 39 examples.
+Check that file exists: 143 examples.
+Checkpoint synchronization: 31 examples.
+Chernick's Carmichael numbers: 18 examples.
+Cheryl's birthday: 40 examples.
+Chinese remainder theorem: 70 examples.
+Chinese zodiac: 61 examples.
+Cholesky decomposition: 65 examples.
+Chowla numbers: 47 examples.
+Church numerals: 38 examples.
+Circles of given radius through two points: 67 examples.
+Circular primes: 37 examples.
+Cistercian numerals: 25 examples.
+Classes: 120 examples.
+Closest-pair problem: 70 examples.
+Closures/Value capture: 84 examples.
+Collections: 97 examples.
+Color of a screen pixel: 62 examples.
+Color quantization: 20 examples.
+Color wheel: 30 examples.
+Colorful numbers: 12 examples.
+Colour bars/Display: 63 examples.
+Colour pinstripe/Display: 42 examples.
+Colour pinstripe/Printer: 12 examples.
+Combinations: 105 examples.
+Combinations and permutations: 43 examples.
+Combinations with repetitions: 75 examples.
+Comma quibbling: 108 examples.
+Command-line arguments: 144 examples.
+Commatizing numbers: 24 examples.
+Comments: 297 examples.
+Compare a list of strings: 89 examples.
+Compare length of two strings: 43 examples.
+Compare sorting algorithms' performance: 19 examples.
+Compile-time calculation: 61 examples.
+Compiler/AST interpreter: 19 examples.
+Compiler/code generator: 23 examples.
+Compiler/lexical analyzer: 45 examples.
+Compiler/syntax analyzer: 24 examples.
+Compiler/virtual machine interpreter: 30 examples.
+Composite numbers k with no single digit factors whose factors are all substrings of k: 14 examples.
+Compound data type: 128 examples.
+Concurrent computing: 81 examples.
+Conditional structures: 219 examples.
+Conjugate transpose: 37 examples.
+Consecutive primes with ascending or descending differences: 25 examples.
+Constrained genericity: 38 examples.
+Constrained random points on a circle: 74 examples.
+Continued fraction: 69 examples.
+Continued fraction/Arithmetic/Construct from rational number: 36 examples.
+Convert decimal number to rational: 57 examples.
+Convert seconds to compound duration: 80 examples.
+Convex hull: 52 examples.
+Conway's Game of Life: 131 examples.
+Copy a string: 194 examples.
+Copy stdin to stdout: 62 examples.
+Count in factors: 91 examples.
+Count in octal: 131 examples.
+Count occurrences of a substring: 133 examples.
+Count the coins: 83 examples.
+Cramer's rule: 42 examples.
+CRC-32: 80 examples.
+Create a file: 140 examples.
+Create a file on magnetic tape: 40 examples.
+Create a two-dimensional array at runtime: 124 examples.
+Create an HTML table: 96 examples.
+Create an object at a given address: 34 examples.
+CSV data manipulation: 91 examples.
+CSV to HTML translation: 85 examples.
+Cuban primes: 40 examples.
+Cullen and Woodall numbers: 24 examples.
+Cumulative standard deviation: 93 examples.
+Currency: 46 examples.
+Currying: 74 examples.
+Curzon numbers: 14 examples.
+CUSIP: 64 examples.
+Cut a rectangle: 28 examples.
+Cyclops numbers: 21 examples.
+Cyclotomic polynomial: 21 examples.
+Damm algorithm: 70 examples.
+Date format: 133 examples.
+Date manipulation: 79 examples.
+Day of the week: 151 examples.
+De Bruijn sequences: 30 examples.
+Deal cards for FreeCell: 59 examples.
+Death Star: 33 examples.
+Deceptive numbers: 19 examples.
+Deconvolution/1D: 31 examples.
+Deconvolution/2D+: 0 examples.
+Deepcopy: 46 examples.
+Define a primitive data type: 60 examples.
+Delegates: 57 examples.
+Delete a file: 122 examples.
+Deming's Funnel: 26 examples.
+Department numbers: 85 examples.
+Descending primes: 15 examples.
+Detect division by zero: 136 examples.
+Determinant and permanent: 52 examples.
+Determine if a string has all the same characters: 63 examples.
+Determine if a string has all unique characters: 54 examples.
+Determine if a string is collapsible: 64 examples.
+Determine if a string is numeric: 149 examples.
+Determine if a string is squeezable: 51 examples.
+Determine if only one instance is running: 48 examples.
+Determine if two triangles overlap: 37 examples.
+Determine sentence type: 16 examples.
+Dice game probabilities: 38 examples.
+Digital root: 105 examples.
+Digital root/Multiplicative digital root: 50 examples.
+Dijkstra's algorithm: 56 examples.
+Dinesman's multiple-dwelling problem: 67 examples.
+Dining philosophers: 53 examples.
+Disarium numbers: 17 examples.
+Discordian date: 58 examples.
+Display a linear combination: 40 examples.
+Display an outline as a nested table: 14 examples.
+Distributed programming: 28 examples.
+Diversity prediction theorem: 37 examples.
+DNS query: 58 examples.
+Documentation: 69 examples.
+Dot product: 164 examples.
+Doubly-linked list/Definition: 49 examples.
+Doubly-linked list/Element definition: 59 examples.
+Doubly-linked list/Element insertion: 53 examples.
+Doubly-linked list/Traversal: 51 examples.
+Dragon curve: 98 examples.
+Draw a clock: 69 examples.
+Draw a cuboid: 62 examples.
+Draw a pixel: 58 examples.
+Draw a rotating cube: 36 examples.
+Draw a sphere: 83 examples.
+Duffinian numbers: 13 examples.
+Dutch national flag problem: 63 examples.
+Dynamic variable names: 81 examples.
+Earliest difference between prime gaps: 14 examples.
+Eban numbers: 36 examples.
+Echo server: 50 examples.
+Eertree: 22 examples.
+Egyptian division: 53 examples.
+Egyptian fractions: 36 examples.
+EKG sequence convergence: 24 examples.
+Element-wise operations: 48 examples.
+Elementary cellular automaton: 48 examples.
+Elementary cellular automaton/Infinite length: 22 examples.
+Elementary cellular automaton/Random Number Generator: 25 examples.
+Elliptic curve arithmetic: 26 examples.
+Elliptic Curve Digital Signature Algorithm: 10 examples.
+Emirp primes: 63 examples.
+Empty directory: 78 examples.
+Empty program: 277 examples.
+Empty string: 174 examples.
+Enforced immutability: 75 examples.
+Entropy: 98 examples.
+Entropy/Narcissist: 38 examples.
+Enumerations: 102 examples.
+Environment variables: 121 examples.
+Equal prime and composite sums: 11 examples.
+Equilibrium index: 78 examples.
+Erdös-Selfridge categorization of primes: 9 examples.
+Esthetic numbers: 34 examples.
+Ethiopian multiplication: 151 examples.
+Euler method: 72 examples.
+Euler's constant 0.5772...: 17 examples.
+Euler's identity: 43 examples.
+Euler's sum of powers conjecture: 75 examples.
+Evaluate binomial coefficients: 112 examples.
+Even or odd: 211 examples.
+Events: 39 examples.
+Evolutionary algorithm: 101 examples.
+Exceptions: 105 examples.
+Exceptions/Catch an exception thrown in a nested call: 73 examples.
+Executable library: 33 examples.
+Execute a Markov algorithm: 51 examples.
+Execute a system command: 152 examples.
+Execute Brain****: 103 examples.
+Execute HQ9+: 0 examples.
+Execute SNUSP: 32 examples.
+Exponentiation operator: 97 examples.
+Exponentiation order: 72 examples.
+Exponentiation with infix operators in (or operating on) the base: 24 examples.
+Extend your language: 82 examples.
+Extensible prime generator: 53 examples.
+Extreme floating point values: 56 examples.
+Faces from a mesh: 12 examples.
+Factorial: 309 examples.
+Factorial base numbers indexing permutations of a collection: 15 examples.
+Factorions: 40 examples.
+Factors of a Mersenne number: 67 examples.
+Factors of an integer: 166 examples.
+Fairshare between two and more: 33 examples.
+Farey sequence: 53 examples.
+Fast Fourier transform: 68 examples.
+FASTA format: 57 examples.
+Faulhaber's formula: 32 examples.
+Faulhaber's triangle: 34 examples.
+Feigenbaum constant calculation: 40 examples.
+Fermat numbers: 30 examples.
+Fibonacci n-step number sequences: 80 examples.
+Fibonacci sequence: 319 examples.
+Fibonacci word: 61 examples.
+Fibonacci word/fractal: 39 examples.
+File extension is in extensions list: 47 examples.
+File input/output: 151 examples.
+File modification time: 84 examples.
+File size: 120 examples.
+File size distribution: 25 examples.
+Filter: 160 examples.
+Find Chess960 starting position identifier: 13 examples.
+Find common directory path: 81 examples.
+Find duplicate files: 23 examples.
+Find if a point is within a triangle: 28 examples.
+Find largest left truncatable prime in a given base: 29 examples.
+Find limit of recursion: 128 examples.
+Find palindromic numbers in both binary and ternary bases: 39 examples.
+Find the intersection of a line with a plane: 43 examples.
+Find the intersection of two lines: 57 examples.
+Find the last Sunday of each month: 88 examples.
+Find the missing permutation: 82 examples.
+First class environments: 31 examples.
+First perfect square in base n with n unique digits: 29 examples.
+First power of 2 that has leading decimal digits of 12: 34 examples.
+First-class functions: 95 examples.
+First-class functions/Use numbers analogously: 54 examples.
+Five weekends: 90 examples.
+Fivenum: 47 examples.
+Fixed length records: 28 examples.
+FizzBuzz: 338 examples.
+Flatten a list: 132 examples.
+Flipping bits game: 46 examples.
+Flow-control structures: 77 examples.
+Floyd's triangle: 98 examples.
+Floyd-Warshall algorithm: 50 examples.
+Forest fire: 68 examples.
+Fork: 71 examples.
+Formal power series: 30 examples.
+Formatted numeric output: 125 examples.
+Fortunate numbers: 18 examples.
+Forward difference: 92 examples.
+Four bit adder: 76 examples.
+Four is magic: 41 examples.
+Four is the number of letters in the ...: 17 examples.
+Fractal tree: 78 examples.
+Fraction reduction: 29 examples.
+Fractran: 53 examples.
+French Republican calendar: 12 examples.
+FTP: 32 examples.
+Function composition: 129 examples.
+Function definition: 260 examples.
+Function frequency: 27 examples.
+Function prototype: 40 examples.
+Functional coverage tree: 15 examples.
+Fusc sequence: 55 examples.
+Galton box animation: 34 examples.
+Gamma function: 77 examples.
+Gapful numbers: 65 examples.
+Gauss-Jordan matrix inversion: 36 examples.
+Gaussian elimination: 53 examples.
+General FizzBuzz: 72 examples.
+Generate Chess960 starting position: 53 examples.
+Generate lower case ASCII alphabet: 154 examples.
+Generate random chess position: 30 examples.
+Generator/Exponential: 62 examples.
+Generic swap: 169 examples.
+Get system command output: 67 examples.
+Globally replace text in several files: 65 examples.
+Go Fish: 33 examples.
+Goldbach's comet: 12 examples.
+Graph colouring: 13 examples.
+Gray code: 93 examples.
+Grayscale image: 59 examples.
+Greatest common divisor: 220 examples.
+Greatest element of a list: 211 examples.
+Greatest subsequential sum: 90 examples.
+Greyscale bars/Display: 50 examples.
+Guess the number: 155 examples.
+Guess the number/With feedback: 126 examples.
+Guess the number/With feedback (player): 78 examples.
+GUI component interaction: 51 examples.
+GUI enabling/disabling of controls: 42 examples.
+GUI/Maximum window dimensions: 44 examples.
+Hailstone sequence: 174 examples.
+Halt and catch fire: 42 examples.
+Hamming numbers: 93 examples.
+Handle a signal: 56 examples.
+Happy numbers: 143 examples.
+Harmonic series: 33 examples.
+Harshad or Niven series: 110 examples.
+Hash from two arrays: 120 examples.
+Hash join: 58 examples.
+Haversine formula: 122 examples.
+Hello world/Graphical: 186 examples.
+Hello world/Line printer: 92 examples.
+Hello world/Newbie: 97 examples.
+Hello world/Newline omission: 182 examples.
+Hello world/Standard error: 145 examples.
+Hello world/Text: 527 examples.
+Hello world/Web server: 77 examples.
+Here document: 84 examples.
+Heronian triangles: 53 examples.
+Hickerson series of almost integers: 45 examples.
+Higher-order functions: 148 examples.
+Hilbert curve: 48 examples.
+History variables: 51 examples.
+Hofstadter Figure-Figure sequences: 53 examples.
+Hofstadter Q sequence: 96 examples.
+Hofstadter-Conway $10,000 sequence: 70 examples.
+Holidays related to Easter: 52 examples.
+Home primes: 11 examples.
+Honeycombs: 30 examples.
+Horizontal sundial calculations: 73 examples.
+Horner's rule for polynomial evaluation: 110 examples.
+Host introspection: 67 examples.
+Hostname: 112 examples.
+Hough transform: 26 examples.
+HTTP: 117 examples.
+HTTPS: 66 examples.
+HTTPS/Authenticated: 31 examples.
+HTTPS/Client-authenticated: 19 examples.
+Huffman coding: 64 examples.
+Humble numbers: 43 examples.
+Hunt the Wumpus: 29 examples.
+I before E except after C: 71 examples.
+IBAN: 73 examples.
+Identity matrix: 123 examples.
+Idiomatically determine all the characters that can be used for symbols: 27 examples.
+Idiomatically determine all the lowercase and uppercase letters: 43 examples.
+Image convolution: 28 examples.
+Image noise: 49 examples.
+Imaginary base numbers: 21 examples.
+Include a file: 137 examples.
+Increasing gaps between consecutive Niven numbers: 30 examples.
+Increment a numerical string: 199 examples.
+Index finite lists of positive integers: 25 examples.
+Infinity: 113 examples.
+Inheritance/Multiple: 66 examples.
+Inheritance/Single: 93 examples.
+Input loop: 127 examples.
+Integer comparison: 206 examples.
+Integer overflow: 64 examples.
+Integer sequence: 171 examples.
+Interactive programming: 102 examples.
+Intersecting number wheels: 28 examples.
+Introspection: 83 examples.
+Inverted index: 43 examples.
+Inverted syntax: 56 examples.
+ISBN13 check digit: 68 examples.
+Isqrt (integer square root) of X: 61 examples.
+Iterated digits squaring: 59 examples.
+Jacobi symbol: 34 examples.
+Jacobsthal numbers: 21 examples.
+Jaro similarity: 53 examples.
+Jaro-Winkler distance: 19 examples.
+Jensen's Device: 79 examples.
+Jewels and stones: 72 examples.
+
+Total: 36912 examples.
+HASH=926ae3adefcac637c932284e0da104bea9838bcdef736ae071a8ac8147f1351b
+NB_LIGNES=502
+bash : memory usage :
+BYTES_IN_USE_AT_EXIT=1,973
+BYTES_TOTAL_HEAP_USAGE=1,989
