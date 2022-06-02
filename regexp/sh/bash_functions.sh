@@ -37,17 +37,25 @@ f_for() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
 	if [ "$1" == "" ]; then
 		_COMMAND="$TASKSET ${2}"
 	else
-		_COMMAND="$TASKSET $1 ${2}.${1} \"${4}\""
+		_COMMAND="$TASKSET $1 ${2}.${1}"
 	fi
 	f_for_bottom
 }
 
 f_for2() {
+	# $1 : program langage name
+	# $2 : activity to mesure
+	# $3 : number of iterations
+	f_for_header $3
+	_COMMAND="$TASKSET $1 -f ${2}.${1}"
+	f_for_bottom
+}
+
+f_for2_on_file() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
@@ -61,9 +69,8 @@ f_for3() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="$TASKSET $1 -f ${2}.${1} \"${4}\" < /dev/null"
+	_COMMAND="$TASKSET $1 -f ${2}.${1} < /dev/null"
 	f_for_bottom
 }
 
@@ -71,20 +78,19 @@ f_for_kotlin() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	# first compile, example : kotlinc lychrel_numbers.kt, gave Lychrel_numbersKt.class
 	f_for_header $3
-	_COMMAND="$TASKSET $1 ${2^}Kt \"${4}\""
+	_COMMAND="$TASKSET $1 ${2^}Kt"
 	f_for_bottom
 }
 
 f_for_jq() {
 	# $1 : program langage name
 	# $2 : activity to mesure
-	# $3 : data file to be processed
-	# $4 : number of iterations
-	f_for_header $4
-	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} $3"
+	# $3 : number of iterations
+	# $4 : data file to be processed
+	f_for_header $3
+	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} \"$4\""
 	f_for_bottom
 }
 
@@ -92,9 +98,8 @@ f_for_haskell() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="$TASKSET /usr/local/bin/stack run${1} ${2}.hk \"${4}\""
+	_COMMAND="$TASKSET /usr/local/bin/stack run${1} ${2}.hk"
 	f_for_bottom
 }
 
@@ -102,9 +107,8 @@ f_for_pipe() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="$TASKSET echo \"\" | $1 ${2}.${1} \"${4}\""
+	_COMMAND="$TASKSET echo \"\" | $1 ${2}.${1}"
 	f_for_bottom
 }
 
@@ -112,9 +116,8 @@ f_for_pipe_2() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="$TASKSET echo \"\" | $1 -f ${2}.${1} \"${4}\""
+	_COMMAND="$TASKSET echo \"\" | $1 -f ${2}.${1}"
 	f_for_bottom
 }
 
@@ -123,9 +126,8 @@ f_for_pipe_with_option() {
 	# $2 : option for program
 	# $3 : activity to mesure
 	# $4 : number of iterations
-	# $5 : file name
 	f_for_header $4
-	_COMMAND="$TASKSET echo \"\" | $1 "$2" -f ${3}.${1} ${5}"
+	_COMMAND="$TASKSET echo \"\" | $1 "$2" -f ${3}.${1}"
 	f_for_bottom
 }
 

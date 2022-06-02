@@ -17,7 +17,6 @@ _ROSETTA_CODE=anonymous_recursion
 _NUMBER_OF_ITERATION=1
 _PRG_LANG="clisp o kotlin haskell perl python ruby tcl"
 
-rm -f log/*
 ./generate_logs.stats.sh $_ROSETTA_CODE $_NUMBER_OF_ITERATION "$_PRG_LANG"
 ./generate_xml.percent.sh $_ROSETTA_CODE "$_PRG_LANG"
 ./generate_xml.stats.sh $_ROSETTA_CODE "$_PRG_LANG"

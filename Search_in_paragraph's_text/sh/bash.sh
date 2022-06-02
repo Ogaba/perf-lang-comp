@@ -14,7 +14,7 @@ PRG_LANG=bash
 
 f_header
 
-echo -n "Version de $PRG_LANG :"
+echo -n "Version of $PRG_LANG :"
 $PRG_LANG --version | grep . | head -n1
 
 for ((_C = 1; _C <= $2; _C++)); do

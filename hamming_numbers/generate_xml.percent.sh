@@ -10,14 +10,14 @@
 function gen_xml() {
  cat log/${2}.${1}.stats.sh.log log/${2}.${1}.stats.sh.log.2 |\
 	sed -f sed/percent.sh.log.sed |\
-	grep -f grep/${1}.stats.sh.log.grep |\
+	grep -f grep/stats.sh.log.grep |\
 	gawk -f awk/xml.awk -f awk/generate_xml.stats.awk\
 	>> xml/${1}.percent.sh.log.xml
 }
 
 function gen_xml2() {
  echo "" | gawk -v file_name="log/*.${1}.stats.sh.log.2" -v algorithm="$1" -f awk/xml.awk\
-		-v xsl_file="compare_percent.xsl" -f awk/begin.awk\
+		-v xsl_file="xsl/compare_percent.xsl" -f awk/begin.awk\
 		> xml/${1}.percent.sh.log.xml
  for PRG_LANG in $2; do
 	echo " XML file generation (percents print) for $PRG_LANG."

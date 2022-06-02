@@ -15,7 +15,6 @@ cat /proc/cpuinfo >> conf_machine.txt
 export _DEBUG=1
 _ROSETTA_CODE=Search_in_paragraph_text
 _NUMBER_OF_ITERATION=1
-#_PRG_LANG="awk bc clisp gawk mawk kotlin haskell perl python ruby tcl"
 _PRG_LANG="gawk jq python3"
 
 ./generate_logs.stats.sh $_ROSETTA_CODE $_NUMBER_OF_ITERATION "$_PRG_LANG"

@@ -7,15 +7,15 @@
 # Modified......... : 2019-09-29
 # Notes............ : keep it as simple as possible
 # $1		    : activity to mesure
-# $2                : number of iterations
+# $2		    : number of iterations
 #**************************************************************************h *#
 . bash_functions.sh
 PRG_LANG=mawk
 
 f_header
 
-echo -n "Version de $PRG_LANG :"
-$PRG_LANG -W version 2>/dev/null | grep . | head -n1 | cut -d' ' -f2
+echo -n "Version of $PRG_LANG :"
+$PRG_LANG -W version 2>/dev/null | grep . | head -n1 | awk '{ print $2 }'
 
 # benchmarking loop
 for ((_C = 1; _C <= $2; _C++)); do
@@ -24,6 +24,6 @@ for ((_C = 1; _C <= $2; _C++)); do
 done
 
 # Run only once to hash outputs and calculate memory usage
-	eval "$_COMMAND" > ~/tmp/$$.tmp
-	f_hash $PRG_LANG
-	f_valgrind $PRG_LANG
+eval "$_COMMAND" > ~/tmp/$$.tmp
+f_hash $PRG_LANG
+f_valgrind $PRG_LANG

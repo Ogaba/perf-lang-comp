@@ -24,13 +24,13 @@
       <th>stddev CPU Sys</th>
       <th>percentile 99% CPU Sys</th>
       <th>Hash</th>
-      <th>Nombre de lignes regexp</th>
-      <th>Mémoire utilisée par la commande (valgrind)</th>
+      <th>Number of lines generated on output</th>
+      <th>Memory used by command (given by valgrind)</th>
     </tr>
     <xsl:for-each select="body/ROWSET/ROW">
     <tr>
       <td><xsl:value-of select="VERSION"/></td>
-      <td><xsl:value-of select="TASKSET"/></td>
+      <td><xsl:value-of select="COMMAND"/></td>
       <td><xsl:value-of select="MEAN_REAL"/></td>
       <td><xsl:value-of select="STDDEV_REAL"/></td>
       <td><xsl:value-of select="PERCENTILE_99_REAL"/></td>

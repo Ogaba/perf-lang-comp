@@ -86,8 +86,8 @@ ls $_DATA | while read _FIC; do
  f_gnuplot2 "$_DATEE : $_NAME" $_FIC
  chmod u+x $_TMP
  $_TMP > ${_FIC}.png
- #cat $_TMP
- #rm $_TMP 2>/dev/null
+ [[ $_DEBUG -eq 1 ]] && echo "DEBUG $_DEBUG : gnuplot code generated : " && cat $_TMP
+ rm $_TMP 2>/dev/null
 done
 
 # End

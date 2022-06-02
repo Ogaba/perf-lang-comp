@@ -1,6 +1,6 @@
 #!/bin/bash
 #* h**************************************************************************#
-# Generic bash functions for perf-lang-comp in cygwin
+# Generic bash functions for perf-lang-comp
 #
 # Author........... : OGA
 # Created.......... : 2017-10-03
@@ -37,12 +37,11 @@ f_for() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
 	if [ "$1" == "" ]; then
-		_COMMAND="${2}"
+		_COMMAND="$TASKSET ${2}"
 	else
-		_COMMAND="$1 ${2}.${1} \"${4}\""
+		_COMMAND="$TASKSET $1 ${2}.${1}"
 	fi
 	f_for_bottom
 }
@@ -52,7 +51,7 @@ f_for2() {
 	# $2 : activity to mesure
 	# $3 : number of iterations
 	f_for_header $3
-	_COMMAND="$1 -f ${2}.${1}"
+	_COMMAND="$TASKSET $1 -f ${2}.${1}"
 	f_for_bottom
 }
 
@@ -62,7 +61,7 @@ f_for2_on_file() {
 	# $3 : number of iterations
 	# $4 : file name
 	f_for_header $3
-	_COMMAND="$1 -f ${2}.${1} \"${4}\""
+	_COMMAND="$TASKSET $1 -f ${2}.${1} \"${4}\""
 	f_for_bottom
 }
 
@@ -71,7 +70,7 @@ f_for3() {
 	# $2 : activity to mesure
 	# $3 : number of iterations
 	f_for_header $3
-	_COMMAND="$1 -f ${2}.${1} < /dev/null"
+	_COMMAND="$TASKSET $1 -f ${2}.${1} < /dev/null"
 	f_for_bottom
 }
 
@@ -79,20 +78,19 @@ f_for_kotlin() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	# first compile, example : kotlinc lychrel_numbers.kt, gave Lychrel_numbersKt.class
 	f_for_header $3
-	_COMMAND="$1 ${2^}Kt \"${4}\""
+	_COMMAND="$TASKSET $1 ${2^}Kt"
 	f_for_bottom
 }
 
 f_for_jq() {
 	# $1 : program langage name
 	# $2 : activity to mesure
-	# $3 : data file to be processed
-	# $4 : number of iterations
-	f_for_header $4
-	_COMMAND="$1 -rRs -f ${2}.${1} $3"
+	# $3 : number of iterations
+	# $4 : data file to be processed
+	f_for_header $3
+	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} \"$4\""
 	f_for_bottom
 }
 
@@ -100,9 +98,8 @@ f_for_haskell() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="/usr/local/bin/stack run${1} ${2}.hk \"${4}\""
+	_COMMAND="$TASKSET /usr/local/bin/stack run${1} ${2}.hk"
 	f_for_bottom
 }
 
@@ -110,9 +107,8 @@ f_for_pipe() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="echo \"\" | $1 ${2}.${1} \"${4}\""
+	_COMMAND="$TASKSET echo \"\" | $1 ${2}.${1}"
 	f_for_bottom
 }
 
@@ -120,9 +116,8 @@ f_for_pipe_2() {
 	# $1 : program langage name
 	# $2 : activity to mesure
 	# $3 : number of iterations
-	# $4 : file name
 	f_for_header $3
-	_COMMAND="echo \"\" | $1 -f ${2}.${1} \"${4}\""
+	_COMMAND="$TASKSET echo \"\" | $1 -f ${2}.${1}"
 	f_for_bottom
 }
 
@@ -131,9 +126,8 @@ f_for_pipe_with_option() {
 	# $2 : option for program
 	# $3 : activity to mesure
 	# $4 : number of iterations
-	# $5 : file name
 	f_for_header $4
-	_COMMAND="echo \"\" | $1 "$2" -f ${3}.${1} \"${5}\""
+	_COMMAND="$TASKSET echo \"\" | $1 "$2" -f ${3}.${1}"
 	f_for_bottom
 }
 
@@ -167,4 +161,16 @@ f_hash() {
 	echo -n "NB_LIGNES="
 	wc -l ~/tmp/$$.tmp | cut -d' ' -f1
 	rm -f ~/tmp/$$.tmp
+}
+
+f_valgrind() {
+	# $1 : program langage name
+	echo "$_COMMAND" > a.out && chmod u+x a.out
+	valgrind --log-file=grindout ./a.out 1>/dev/null
+	echo "$1 : memory usage :"
+	echo -n "BYTES_IN_USE_AT_EXIT="
+	grep 'in use at exit' grindout | cut -d':' -f2 | cut -d' ' -f2
+	echo -n "BYTES_TOTAL_HEAP_USAGE="
+	grep 'total heap usage' grindout | cut -d':' -f2 | cut -d' ' -f6
+	rm -f grindout
 }

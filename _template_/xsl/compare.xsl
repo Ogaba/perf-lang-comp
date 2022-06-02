@@ -18,8 +18,8 @@
       <th>mean CPU Sys</th>
       <th>std dev CPU Sys</th>
       <th>Hash</th>
-      <th>Nombre de lignes regexp</th>
-      <th>Mémoire utilisée par la commande (valgrind)</th>
+      <th>Number of lines generated on output</th>
+      <th>Memory used by the command (given by valgrind)</th>
     </tr>
     <xsl:for-each select="body/ROWSET/ROW">
     <tr>

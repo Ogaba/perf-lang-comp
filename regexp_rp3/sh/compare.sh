@@ -2,7 +2,7 @@
 function common() {
  # $1 : nom du binaire
  # $2 : pattern
- echo -n "Version de ${1} :"
+ echo -n "Version of ${1} :"
  case ${1} in
   mawk) apt-show-versions  | grep mawk | head -n1 | cut -d' ' -f2;;
   *)    ${1} --version | grep . | head -n1 | cut -d',' -f1;;

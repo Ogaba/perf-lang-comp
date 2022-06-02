@@ -7,14 +7,14 @@
 # Modified......... : 2019-09-29
 # Notes............ : keep it as simple as possible
 # $1		    : activity to mesure
-# $2                : number of iterations
+# $2		    : number of iterations
 #**************************************************************************h *#
 . bash_functions.sh
 PRG_LANG=haskell
 
 f_header
 
-echo -n "Version de $PRG_LANG :"
+echo -n "Version of $PRG_LANG :"
 /usr/local/bin/stack --version | grep . | head -n1 | cut -d' ' -f2
 
 # benchmarking loop
@@ -24,7 +24,7 @@ for ((_C = 1; _C <= $2; _C++)); do
 done
 
 # Run only once to hash outputs and calculate memory usage
-	# delete [], transform , to space, and sort numbers on each line
-	eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | f_sort_each_line_of_a_file > ~/tmp/$$.tmp
-	f_hash $PRG_LANG
-	f_valgrind $PRG_LANG
+# delete [], transform , to space, and sort numbers on each line
+eval "$_COMMAND" | tr -d '[]' | tr ',' ' ' | f_sort_each_line_of_a_file > ~/tmp/$$.tmp
+f_hash $PRG_LANG
+f_valgrind $PRG_LANG

@@ -13,10 +13,9 @@ cat /proc/cpuinfo >> conf_machine.txt
 . add_path.sh
 
 export _DEBUG=1
-_ROSETTA_CODE=Count_examples
+_ROSETTA_CODE=""
 _NUMBER_OF_ITERATION=1
-#_PRG_LANG="awk bc clisp gawk mawk kotlin haskell perl python ruby tcl"
-_PRG_LANG="bash perl python3"
+_PRG_LANG=""
 
 ./generate_logs.stats.sh $_ROSETTA_CODE $_NUMBER_OF_ITERATION "$_PRG_LANG"
 ./generate_xml.percent.sh $_ROSETTA_CODE "$_PRG_LANG"

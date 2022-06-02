@@ -87,10 +87,10 @@ f_for_kotlin() {
 f_for_jq() {
 	# $1 : program langage name
 	# $2 : activity to mesure
-	# $3 : data file to be processed
-	# $4 : number of iterations
-	f_for_header $4
-	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} $3"
+	# $3 : number of iterations
+	# $4 : data file to be processed
+	f_for_header $3
+	_COMMAND="$TASKSET $1 -rRs -f ${2}.${1} \"$4\""
 	f_for_bottom
 }
 

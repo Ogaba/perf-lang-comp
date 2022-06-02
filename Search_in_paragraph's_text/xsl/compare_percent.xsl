@@ -3,7 +3,7 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
 <xsl:output method="html" indent="yes"/>
 
- <xsl:variable name="STDDEV_SYS_SUM"> <xsl:value-of select="sum(/body/ROWSET/ROW/STDDEV_SYS)"/> </xsl:variable>
+<xsl:variable name="STDDEV_SYS_SUM"> <xsl:value-of select="sum(/body/ROWSET/ROW/STDDEV_SYS)"/> </xsl:variable>
 
 <xsl:value-of select="$STDDEV_SYS_SUM"/>
 
@@ -91,14 +91,14 @@
 	<th>mean CPU User %</th>
 	<th>mean CPU Sys %</th>
 	<th>Hash</th>
-	<th>Nombre de lignes générées en sortie</th>
-	<th>Mémoire utilisée par la commande (valgrind)</th>
+	<th>Number of lines generated on output</th>
+	<th>Memory used by command (given by valgrind)</th>
     </tr>
     <xsl:for-each select="body/ROWSET/ROW">
     <tr>
 	<xsl:if test="HASH!=/body/ROWSET/MOST_PROBABLE_CORRECT_HASH">
 	<td><i><xsl:value-of select="VERSION"/></i></td>
-	<td><i><xsl:value-of select="TASKSET"/></i></td>
+	<td><i><xsl:value-of select="COMMAND"/></i></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -108,7 +108,7 @@
 	</xsl:if>
 	<xsl:if test="HASH=/body/ROWSET/MOST_PROBABLE_CORRECT_HASH">
 	<td><xsl:value-of select="VERSION"/></td>
-	<td><xsl:value-of select="TASKSET"/></td>
+	<td><xsl:value-of select="COMMAND"/></td>
 	<td><xsl:value-of select="round(MEAN_REAL div $MEAN_REAL_MAX * 100)"/>%</td>
 	<td><xsl:value-of select="round(MEAN_USER div $MEAN_USER_MAX * 100)"/>%</td>
 	<td><xsl:value-of select="round(MEAN_SYS div $MEAN_SYS_MAX * 100)"/>%</td>
